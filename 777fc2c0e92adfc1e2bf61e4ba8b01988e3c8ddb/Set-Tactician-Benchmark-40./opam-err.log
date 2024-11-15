@@ -1,0 +1,5 @@
+[WARNING] /home/ubuntu/.opam exists and is not empty
+  * Incompatible packages:
+    - coq-tactician → coq-core >= dev
+    - coq-tactician-stdlib → coq < 8.12~
+

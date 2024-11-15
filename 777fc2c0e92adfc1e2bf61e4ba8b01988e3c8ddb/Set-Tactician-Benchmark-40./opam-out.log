@@ -1,0 +1,11 @@
+Proceed? [y/n] y
+Checking for available remotes: rsync and local, git, mercurial, darcs. Perfect!
+
+<><> Fetching repository information ><><><><><><><><><><><><><><><><><><><><><>
+[coq-core-dev] Initialised
+[custom-archive] Initialised
+[coq-extra-dev] Initialised
+[coq-released] Initialised
+[default] Initialised
+[coq-tactician.dev] synchronised (git+ssh://git@github.com/IBM/graph2tac#777fc2c0e92adfc1e2bf61e4ba8b01988e3c8ddb)
+coq-tactician is now pinned to git+ssh://git@github.com/IBM/graph2tac#777fc2c0e92adfc1e2bf61e4ba8b01988e3c8ddb (version dev)
