@@ -5,23 +5,23 @@
 
 #=== ERROR while compiling ocaml-base-compiler.4.12.1 =========================#
 # context              2.2.1 | linux/x86_64 |  | https://opam.ocaml.org#c31c18de15e89738fc8f0a9a43ea240e9af44337
-# path                 ~/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.7Fx3oT/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1
+# path                 ~/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.AFSI9t/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1
 # command              /usr/bin/make -j13
 # exit-code            2
-# env-file             /tmp/opam-ubuntu-485223/ocaml-base-compiler-485223-860d1b.env
-# output-file          /tmp/opam-ubuntu-485223/ocaml-base-compiler-485223-860d1b.out
+# env-file             /tmp/opam-ubuntu-503571/ocaml-base-compiler-503571-4b6654.env
+# output-file          /tmp/opam-ubuntu-503571/ocaml-base-compiler-503571-4b6654.out
 ### output ###
+# 34 |   | Pconst_string of string * Location.t * string option
 # [...]
-# ../boot/ocamlrun ../boot/ocamlc -use-prims ../runtime/primitives -strict-sequence -absname -w +a-4-9-41-42-44-45-48 -g -warn-error A -bin-annot -nostdlib -principal -safe-string -strict-formats   -o stdlib__filename.cmo -c filename.ml
-# File "/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.7Fx3oT/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1/stdlib/digest.ml", line 20, characters 14-28:
-# 20 | let compare = String.compare
-#                    ^^^^^^^^^^^^^^
-# Error: The module String is an alias for module Stdlib__string, which is missing
-# ../boot/ocamlrun ../boot/ocamlc -use-prims ../runtime/primitives -strict-sequence -absname -w +a-4-9-41-42-44-45-48 -g -warn-error A -bin-annot -nostdlib -principal -safe-string -strict-formats   -o stdlib__complex.cmo -c complex.ml
-# make[2]: *** [Makefile:210: stdlib__digest.cmo] Error 2
-# make[2]: *** Waiting for unfinished jobs....
-# make[2]: Leaving directory '/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.7Fx3oT/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1/stdlib'
-# make[1]: *** [Makefile:143: coldstart] Error 2
-# make[1]: Leaving directory '/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.7Fx3oT/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1'
-# make: *** [Makefile:274: world.opt] Error 2
+# Error: Unbound module Location
+# make[4]: *** [Makefile:181: dynlink_compilerlibs/parsetree.cmo] Error 2
+# make[4]: *** Waiting for unfinished jobs....
+# make[4]: Leaving directory '/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.AFSI9t/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1/otherlibs/dynlink'
+# make[3]: *** [Makefile:34: all] Error 2
+# make[3]: Leaving directory '/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.AFSI9t/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1/otherlibs'
+# make[2]: *** [Makefile:892: otherlibraries] Error 2
+# make[2]: Leaving directory '/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.AFSI9t/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1'
+# make[1]: *** [Makefile:217: opt.opt] Error 2
+# make[1]: Leaving directory '/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.AFSI9t/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1'
+# make: *** [Makefile:275: world.opt] Error 2
 
