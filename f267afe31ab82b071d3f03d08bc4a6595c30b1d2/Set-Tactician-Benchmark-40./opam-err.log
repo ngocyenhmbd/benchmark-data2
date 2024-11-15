@@ -1,1 +1,27 @@
 [WARNING] /home/ubuntu/.opam exists and is not empty
+[WARNING] Failed checks on coq-tactician package definition from source at git+ssh://git@github.com/coq-tactician/coq-tactician#f267afe31ab82b071d3f03d08bc4a6595c30b1d2:
+           warning 68: Missing field 'license'
+[ERROR] The compilation of ocaml-base-compiler.4.12.1 failed at "make -j13".
+
+#=== ERROR while compiling ocaml-base-compiler.4.12.1 =========================#
+# context              2.2.1 | linux/x86_64 |  | https://opam.ocaml.org#c31c18de15e89738fc8f0a9a43ea240e9af44337
+# path                 ~/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.gaZQRV/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1
+# command              /usr/bin/make -j13
+# exit-code            2
+# env-file             /tmp/opam-ubuntu-438707/ocaml-base-compiler-438707-0d2b6a.env
+# output-file          /tmp/opam-ubuntu-438707/ocaml-base-compiler-438707-0d2b6a.out
+### output ###
+# [...]
+# ../boot/ocamlrun ../boot/ocamlc -use-prims ../runtime/primitives -strict-sequence -absname -w +a-4-9-41-42-44-45-48 -g -warn-error A -bin-annot -nostdlib -principal -safe-string -strict-formats   -o stdlib__weak.cmo -c weak.ml
+# ../boot/ocamlrun ../boot/ocamlc -use-prims ../runtime/primitives -strict-sequence -absname -w +a-4-9-41-42-44-45-48 -g -warn-error A -bin-annot -nostdlib -principal -safe-string -strict-formats  -w Ae -o stdlib__format.cmo -c format.ml
+# File "/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.gaZQRV/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1/stdlib/buffer.ml", line 33, characters 16-37:
+# 33 |  let n = if n > Sys.max_string_length then Sys.max_string_length else n in
+#                      ^^^^^^^^^^^^^^^^^^^^^
+# Error: The module Sys is an alias for module Stdlib__sys, which is missing
+# make[2]: *** [Makefile:210: stdlib__buffer.cmo] Error 2
+# make[2]: *** Waiting for unfinished jobs....
+# make[2]: Leaving directory '/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.gaZQRV/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1/stdlib'
+# make[1]: *** [Makefile:143: coldstart] Error 2
+# make[1]: Leaving directory '/home/ubuntu/workspace/projects/benchmark-system/tmp-root2/tactician.tmp.gaZQRV/opam-root/bench/.opam-switch/build/ocaml-base-compiler.4.12.1'
+# make: *** [Makefile:274: world.opt] Error 2
+
