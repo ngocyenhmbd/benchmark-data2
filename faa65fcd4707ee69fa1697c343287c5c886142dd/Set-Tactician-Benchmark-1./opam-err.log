@@ -1,4 +1,0 @@
-[WARNING] /home/brai/.opam exists and is not empty
-[ERROR] Error getting source from ssh://git@github.com/coq-tactician/benchmark-system.git#faa65fcd4707ee69fa1697c343287c5c886142dd:
-          - git@github.com/coq-tactician/benchmark-system.git
-
