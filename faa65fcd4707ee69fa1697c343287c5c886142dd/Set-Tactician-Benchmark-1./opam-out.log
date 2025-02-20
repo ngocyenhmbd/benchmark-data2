@@ -9,4 +9,6 @@ Checking for available remotes: git.
 [coq-core-dev] Initialised
 [coq-extra-dev] Initialised
 [coq-released] Initialised
+[custom-archive] Initialised
 [default] Initialised
+[coq-tactician.dev] fetching sources failed: git@github.com/coq-tactician/benchmark-system.git
