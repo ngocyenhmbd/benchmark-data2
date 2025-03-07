@@ -1,0 +1,3 @@
+(((pid 223273) (thread_id 0)) "2025-03-07 10:20:39.37016837Z"
+ "Shutdown forced." ())
+Abnormal exit code for command worker: job0 with prefix . Code: 1

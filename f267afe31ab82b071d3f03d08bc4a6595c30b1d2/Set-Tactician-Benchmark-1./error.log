@@ -2,4 +2,13 @@
 
 ------------------ Benchmark terminated -----------------------
 
-Fatal benchmarking error: Compile alloc protocol error: Unexpected eof
+Fatal benchmarking error: (d993f883-4bca-3d7a-e658-55ea63982b4d
+ (monitor.ml.Error
+  (Invalid_argument
+   "String.chop_suffix_exn \"/tmp/tactician.tmp.Fk0036/opam-root/bench/bin/coqc\" \"lib/coq-tactician/coqc.real\"")
+  ("Raised at Stdlib.invalid_arg in file \"stdlib.ml\", line 30, characters 20-45"
+   "Called from Dune__exe__Main.Cmd_worker.T.Functions.make_process.(fun) in file \"src/benchmark/main.ml\", line 170, characters 10-81"
+   "Called from Async_kernel__Deferred0.bind.(fun) in file \"src/deferred0.ml\", line 54, characters 64-69"
+   "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")))
+Non-fatal benchmarking error: ("Coq process ended abruptly. Invocation: (cd /tmp/tactician.tmp.Fk0036/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev && /tmp/tactician.tmp.Fk0036/opam-root/bench/bin/coqc /tmp/tactician.tmp.Fk0036/opam-root/bench/bin/coqc -q -I /tmp/tactician.tmp.Fk0036/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.Fk0036/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record -l /tmp/tactician.tmp.Fk0036/opam-root/bench/share/coq-tactician/plugins/zzz-benchmark/Injections.v -q -coqlib . -I /tmp/tactician.tmp.Fk0036/opam-root/bench/lib/coq/user-contrib/Tactician -R /tmp/tactician.tmp.Fk0036/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record plugins/nsatz/Nsatz.v -l /tmp/tactician.tmp.Fk0036/BenchParams.v)"
+ "Abnormal exit code for command worker: job0 with prefix . Code: 1")

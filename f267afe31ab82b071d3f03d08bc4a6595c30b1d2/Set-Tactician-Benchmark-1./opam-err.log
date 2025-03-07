@@ -1,0 +1,4 @@
+[WARNING] /home/brai/.opam exists and is not empty
+[WARNING] Failed checks on coq-tactician package definition from source at git+ssh://git@github.com/coq-tactician/coq-tactician#f267afe31ab82b071d3f03d08bc4a6595c30b1d2:
+           warning 68: Missing field 'license'
+[NOTE] Package coq-tactician-stdlib is already installed (current version is 8.11.dev).
