@@ -2,10 +2,6 @@
 
 ------------------ Benchmark terminated -----------------------
 
-Fatal benchmarking error: (6c5f2629-473a-3998-20f5-8c7f01ca79d1
- (monitor.ml.Error ("OpamStd.OpamSys.Exit(31)")
-  ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 251, characters 17-26"
-   "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"
-   "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")))
+Fatal benchmarking error: Termination request received: sigint
 Fatal benchmarking error: Initial build did not fully complete
-Fatal benchmarking error: Abnormal exit code for build worker on host 902190b4a50c. Code: 254
+Fatal benchmarking error: Termination request received: sigint
