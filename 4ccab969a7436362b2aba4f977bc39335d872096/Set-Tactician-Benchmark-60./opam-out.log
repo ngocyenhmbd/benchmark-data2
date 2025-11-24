@@ -1,20 +1,7 @@
 Opam has already been initialized.
 Nothing to do.
-[coq-tactician-api.15.0+8.11] synchronised (git+ssh://git@github.com/BlueRavenAI/coq-tactician-api#4ccab969a7436362b2aba4f977bc39335d872096)
-coq-tactician-api is now pinned to git+ssh://git@github.com/BlueRavenAI/coq-tactician-api#4ccab969a7436362b2aba4f977bc39335d872096 (version 15.0+8.11)
-
-<><> Synchronising pinned packages ><><><><><><><><><><><><><><><><><><><><><><>
 [coq-tactician-api.15.0+8.11] synchronised (no changes)
-
-The following actions will be performed:
-=== recompile 1 package
-  ↻ coq-tactician-api 15.0+8.11 (pinned)
-
-<><> Processing actions <><><><><><><><><><><><><><><><><><><><><><><><><><><><>
-⬇ retrieved coq-tactician-api.15.0+8.11  (no changes)
-⊘ removed   coq-tactician-api.15.0+8.11
-∗ installed coq-tactician-api.15.0+8.11
-Done.
+coq-tactician-api is now pinned to git+ssh://git@github.com/BlueRavenAI/coq-tactician-api#4ccab969a7436362b2aba4f977bc39335d872096 (version 15.0+8.11)
 Removed '["tactician" "exec" "--"] {coq-tactician:installed}' from field wrap-build-commands in switch bench
 Added '["tactician" "exec" "--"] {coq-tactician:installed}' to field wrap-build-commands in switch bench
 Removed '["tactician" "exec" "--"] {coq-tactician:installed}' from field wrap-install-commands in switch bench
@@ -34,3 +21,12 @@ The following actions will be performed:
 
 <><> Processing actions <><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 ⬇ retrieved coq-tactician-stdlib.8.11.dev  (no changes)
+∗ installed coq-tactician-stdlib.8.11.dev
+Done.
+
+<><> coq-tactician-stdlib.8.11.dev installed successfully <><><><><><><><><><><>
+=> --- The standard library was successfully recompiled ---
+
+   In order to finish the process, you should run
+
+   tactician recompile
