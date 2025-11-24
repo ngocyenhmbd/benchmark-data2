@@ -10,8 +10,8 @@
 # path                 ~/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev
 # command              ~/tmp/opam-root/bench/bin/tactician exec -- make -j7
 # exit-code            2
-# env-file             ~/tmp/opam-root/log/coq-tactician-stdlib-333127-45f629.env
-# output-file          ~/tmp/opam-root/log/coq-tactician-stdlib-333127-45f629.out
+# env-file             ~/tmp/opam-root/log/coq-tactician-stdlib-337750-4bf1ef.env
+# output-file          ~/tmp/opam-root/log/coq-tactician-stdlib-337750-4bf1ef.out
 ### output ###
 # Traceback (most recent call last):
 # [...]
@@ -27,7 +27,7 @@
 # 
 # make: *** [Makefile:61: theories/Init/Datatypes.vo] Error 1
 
-2025-11-24 06:14:28.850923Z Error Rpc_parallel: (monitor.ml.Error ("OpamStd.OpamSys.Exit(31)")
+2025-11-24 06:17:43.917282Z Error Rpc_parallel: (monitor.ml.Error ("OpamStd.OpamSys.Exit(31)")
   ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 251, characters 17-26"
     "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"
     "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")) ... Shutting down.

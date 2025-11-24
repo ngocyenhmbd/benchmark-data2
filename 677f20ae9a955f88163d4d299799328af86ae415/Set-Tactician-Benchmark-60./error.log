@@ -2,7 +2,7 @@
 
 ------------------ Benchmark terminated -----------------------
 
-Fatal benchmarking error: (359554c9-8880-3df9-dd38-2ace63cbb79e
+Fatal benchmarking error: (11da431e-b455-3e84-8959-ba601e2553bf
  (monitor.ml.Error ("OpamStd.OpamSys.Exit(31)")
   ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 251, characters 17-26"
    "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"

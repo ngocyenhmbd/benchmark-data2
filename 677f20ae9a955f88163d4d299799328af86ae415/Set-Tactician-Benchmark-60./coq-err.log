@@ -1,4 +1,4 @@
-E1124 06:14:27.246928  337281 pjrt_stream_executor_client.cc:3314] Execution of replica 0 failed: INTERNAL: jaxlib/gpu/blas_handle_pool.cc:33: operation gpublasCreate(&handle) failed: cuBlas allocation failure
+E1124 06:17:42.335781  341873 pjrt_stream_executor_client.cc:3314] Execution of replica 0 failed: INTERNAL: jaxlib/gpu/blas_handle_pool.cc:33: operation gpublasCreate(&handle) failed: cuBlas allocation failure
 Traceback (most recent call last):
   File "/home/brai/.conda/envs/tactician-ext/bin/brai-inference", line 8, in <module>
     sys.exit(main())
