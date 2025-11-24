@@ -1,0 +1,18 @@
+File "./theories/Init/Logic.v", line 416, characters 6-56:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Init/Logic.v", line 493, characters 4-18:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Init/Logic.v", line 810, characters 4-25:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Init/Logic.v", line 836, characters 4-31:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Init/Logic.v", line 886, characters 4-31:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Init/Logic_Type.v", line 49, characters 2-50:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
