@@ -1,30 +1,3 @@
-[WARNING] /home/brai/.opam exists and is not empty
-[ERROR] The compilation of coq-tactician-stdlib.8.11.dev failed at "make -j7".
+[NOTE] coq-tactician-stdlib is not installed.
 
-#=== ERROR while compiling coq-tactician-stdlib.8.11.dev ======================#
-# context              2.2.1 | linux/x86_64 |  | https://coq.inria.fr/opam/extra-dev#2025-11-22 20:22
-# path                 ~/benchmark-system/build/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev
-# command              ~/benchmark-system/build/opam-root/bench/bin/tactician exec -- make -j7
-# exit-code            2
-# env-file             /tmp/opam-xxx-154498/coq-tactician-stdlib-154498-4e6c86.env
-# output-file          /tmp/opam-xxx-154498/coq-tactician-stdlib-154498-4e6c86.out
-### output ###
-# [...]
-# coqc theories/FSets/FSetBridge.v
-# coqc theories/MSets/MSetWeakList.v
-# coqc theories/MSets/MSetGenTree.v
-# coqc theories/Sorting/Sorting.v
-# coqc theories/Sets/Infinite_sets.v
-# coqc theories/Program/Program.v
-# coqc theories/MSets/MSetList.v
-# coqc theories/Numbers/Cyclic/Abstract/DoubleType.v
-# coqc theories/Numbers/Integer/Binary/ZBinary.v
-# make: *** [Makefile:66: theories/FSets/FMapList.vo] Segmentation fault (core dumped)
-# make: *** [theories/FSets/FMapList.vo] Deleting file 'theories/FSets/FMapList.glob'
-# make: *** Waiting for unfinished jobs....
-
-2025-11-24 04:55:07.899510Z Error Rpc_parallel: (monitor.ml.Error ("OpamStd.OpamSys.Exit(31)")
-  ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 251, characters 17-26"
-    "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"
-    "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")) ... Shutting down.
-Abnormal exit code for build worker on host 902190b4a50c. Code: 254
+[NOTE] Package coq-tactician is already pinned to git+ssh://git@github.com/coq-tactician/coq-tactician#ea5fede0bfeed85643c7bbe18d7becd5243a0164 (version dev).
