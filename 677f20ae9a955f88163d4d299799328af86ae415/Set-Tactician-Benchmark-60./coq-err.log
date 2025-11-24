@@ -1,40 +1,12 @@
-E1124 06:17:42.335781  341873 pjrt_stream_executor_client.cc:3314] Execution of replica 0 failed: INTERNAL: jaxlib/gpu/blas_handle_pool.cc:33: operation gpublasCreate(&handle) failed: cuBlas allocation failure
-Traceback (most recent call last):
-  File "/home/brai/.conda/envs/tactician-ext/bin/brai-inference", line 8, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/brai/sanity/src/sanity/inference/prediction_check_oracle_server.py", line 538, in main
-    coder=LSTMCoder(
-          ^^^^^^^^^^
-  File "/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/flax/nnx/pytreelib.py", line 289, in __call__
-    return _graph_node_meta_call(cls, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/flax/nnx/pytreelib.py", line 301, in _graph_node_meta_call
-    cls._pytree_meta_construct(node, *args, **kwargs)
-  File "/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/flax/nnx/pytreelib.py", line 292, in _pytree_meta_construct
-    self.__init__(*args, **kwargs)
-  File "/home/brai/sanity/src/sanity/models/rnn_graph_processor.py", line 537, in __init__
-    cell = TreeLSTMCell(
-           ^^^^^^^^^^^^^
-  File "/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/flax/nnx/pytreelib.py", line 289, in __call__
-    return _graph_node_meta_call(cls, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/flax/nnx/pytreelib.py", line 301, in _graph_node_meta_call
-    cls._pytree_meta_construct(node, *args, **kwargs)
-  File "/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/flax/nnx/pytreelib.py", line 292, in _pytree_meta_construct
-    self.__init__(*args, **kwargs)
-  File "/home/brai/sanity/src/sanity/models/rnn_cells.py", line 70, in __init__
-    jax.vmap(lambda k: orthogonal(k, (4*dim, dim), jnp.float32))(keys))  # (num_edges, dim, dim)
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/brai/sanity/src/sanity/models/rnn_cells.py", line 70, in <lambda>
-    jax.vmap(lambda k: orthogonal(k, (4*dim, dim), jnp.float32))(keys))  # (num_edges, dim, dim)
-                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/jax/_src/nn/initializers.py", line 630, in init
-    Q = random.orthogonal(key, n_rows, (), dtype, n_cols)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/jax/_src/random.py", line 2324, in orthogonal
-    q, r = jnp_linalg.qr(z)
-           ^^^^^^^^^^^^^^^^
-jaxlib._jax.XlaRuntimeError: INTERNAL: jaxlib/gpu/blas_handle_pool.cc:33: operation gpublasCreate(&handle) failed: cuBlas allocation failure
---------------------
-For simplicity, JAX has removed its internal frames from the traceback of the following exception. Set JAX_TRACEBACK_FILTERING=off to include these.
+/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/lightning/pytorch/core/saving.py:94: The state dict in '/home/brai/sanity/model_checkpoints/2025-11-16_05-14-50/epoch=7119-step=28480.ckpt' contains no parameters.
+  0%|          | 0/187 [00:00<?, ?it/s]100%|██████████| 187/187 [00:00<00:00, 1999.94it/s]
+/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/lightning/pytorch/core/saving.py:94: The state dict in '/home/brai/sanity/model_checkpoints/2025-11-16_05-14-50/epoch=7119-step=28480.ckpt' contains no parameters.
+  0%|          | 0/187 [00:00<?, ?it/s] 98%|█████████▊| 183/187 [00:00<00:00, 1708.89it/s]100%|██████████| 187/187 [00:00<00:00, 1738.23it/s]
+/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/lightning/pytorch/core/saving.py:94: The state dict in '/home/brai/sanity/model_checkpoints/2025-11-16_05-14-50/epoch=7119-step=28480.ckpt' contains no parameters.
+  0%|          | 0/187 [00:00<?, ?it/s] 98%|█████████▊| 183/187 [00:00<00:00, 1764.83it/s]100%|██████████| 187/187 [00:00<00:00, 1798.63it/s]
+/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/lightning/pytorch/core/saving.py:94: The state dict in '/home/brai/sanity/model_checkpoints/2025-11-16_05-14-50/epoch=7119-step=28480.ckpt' contains no parameters.
+  0%|          | 0/187 [00:00<?, ?it/s] 98%|█████████▊| 183/187 [00:00<00:00, 1814.65it/s]100%|██████████| 187/187 [00:00<00:00, 1846.08it/s]
+/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/lightning/pytorch/core/saving.py:94: The state dict in '/home/brai/sanity/model_checkpoints/2025-11-16_05-14-50/epoch=7119-step=28480.ckpt' contains no parameters.
+  0%|          | 0/187 [00:00<?, ?it/s] 98%|█████████▊| 183/187 [00:00<00:00, 1756.06it/s]100%|██████████| 187/187 [00:00<00:00, 1785.42it/s]
+/home/brai/.conda/envs/tactician-ext/lib/python3.11/site-packages/lightning/pytorch/core/saving.py:94: The state dict in '/home/brai/sanity/model_checkpoints/2025-11-16_05-14-50/epoch=7119-step=28480.ckpt' contains no parameters.
+  0%|          | 0/187 [00:00<?, ?it/s]100%|██████████| 187/187 [00:00<00:00, 1906.96it/s]

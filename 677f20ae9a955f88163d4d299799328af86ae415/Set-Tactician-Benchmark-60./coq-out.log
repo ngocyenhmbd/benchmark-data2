@@ -2,3 +2,959 @@
 >>> Preprocess embedding...
 ==================================================
 
+LSTMCoder( # Param: 6,113,615 (24.5 MB), RngState: 2 (12 B), Total: 6,113,617 (24.5 MB)
+  graph_training_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x75efd397da50>,
+  graph_validation_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x75efd397da50>,
+  graph_lookup_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x75efd397d510>,
+  graph_inference_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x75efd397d5d0>,
+  dim=(256,),
+  cell=TreeLSTMCell( # Param: 5,961,728 (23.8 MB)
+    dim=128,
+    edges_param=Param( # 5,898,240 (23.6 MB)
+      value=Array(shape=(90, 512, 128), dtype=dtype('float32'))
+    ),
+    bias_i=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x75f36e604fe0>,
+      promote_dtype=<function promote_dtype at 0x75f36e20e0c0>
+    ),
+    bias_f=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x75f36e604fe0>,
+      promote_dtype=<function promote_dtype at 0x75f36e20e0c0>
+    ),
+    bias_o=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x75f36e604fe0>,
+      promote_dtype=<function promote_dtype at 0x75f36e20e0c0>
+    ),
+    bias_u=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x75f36e604fe0>,
+      promote_dtype=<function promote_dtype at 0x75f36e20e0c0>
+    ),
+    use_ibmm=False,
+    hidden_scaling_function=<function main.<locals>.<lambda> at 0x75f03a7d1800>
+  ),
+  out=MLPHead( # Param: 151,887 (607.5 KB)
+    layers=[Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x75f36e20df80>,
+      bias_init=<function zeros at 0x75f3701013a0>,
+      dot_general=<function dot_general at 0x75f370af1a80>,
+      promote_dtype=<function promote_dtype at 0x75f36e20e0c0>
+    ), Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x75f36e20df80>,
+      bias_init=<function zeros at 0x75f3701013a0>,
+      dot_general=<function dot_general at 0x75f370af1a80>,
+      promote_dtype=<function promote_dtype at 0x75f36e20e0c0>
+    ), Linear( # Param: 20,303 (81.2 KB)
+      kernel=Param( # 20,224 (80.9 KB)
+        value=Array(shape=(256, 79), dtype=dtype('float32'))
+      ),
+      bias=Param( # 79 (316 B)
+        value=Array(shape=(79,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=79,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x75f36e20df80>,
+      bias_init=<function zeros at 0x75f3701013a0>,
+      dot_general=<function dot_general at 0x75f370af1a80>,
+      promote_dtype=<function promote_dtype at 0x75f36e20e0c0>
+    )],
+    last_dim=79,
+    fc1=Linear(...),
+    fc2=Linear(...),
+    fc3=Linear(...)
+  ),
+  rngs=Rngs( # RngState: 2 (12 B)
+    default=RngStream( # RngState: 2 (12 B)
+      tag='default',
+      key=RngKey( # 1 (8 B)
+        value=Array((), dtype=key<fry>) overlaying:
+        [    0 93123],
+        tag='default'
+      ),
+      count=RngCount( # 1 (4 B)
+        value=Array(11, dtype=uint32),
+        tag='default'
+      )
+    )
+  ),
+  contrastive_losses={},
+  uniformity_losses={},
+  label_losses={},
+  noise=<function main.<locals>.<lambda> at 0x75f03a7d0e00>,
+  closeness_fn=functools.partial(<function l2_squared_distance_argmin_memory_efficient at 0x75f1eefc3560>, block_size=8192)
+)
+==================================================
+>>> Prepare ground truth for oracle...
+==================================================
+
+==================================================
+>>> Oracle data built, 44 definitions, ready for incoming connections
+==================================================
+
+Embedding data built, ready for incoming connections
+
+Python server running in graph mode
+
+>>> Creating lookup embeddings...
+
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=128, children_indices=256, edge_labels=256, children_range=128, level_labels=32, level_range=32, max_level_size=64)
+Proving:	forall (v0 : ((@Coq.Init.Logic.and) (@A)) (@B)), (@A)
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=32, children_indices=32, edge_labels=32, children_range=32, level_labels=16, level_range=16, max_level_size=64)
+proof:		fun (v0 : ((@Coq.Init.Logic.and) (@B)) (@B)) => (match (v0) as v1 in (@Coq.Init.Logic.and _ _) return (@B) with @Coq.Init.Logic.conj _ _ v1 v2 => (fun (v1 : @B) => (fun (v2 : @B) => (v2))) v1 v2 end)
+Proving:	forall (v0 : ((@Coq.Init.Logic.and) (@A)) (@B)), (@A)
+proof:		fun (v0 : ((@Coq.Init.Logic.and) (@B)) (@B)) => (match (v0) as v1 in (@Coq.Init.Logic.and _ _) return (@B) with @Coq.Init.Logic.conj _ _ v1 v2 => (fun (v1 : @B) => (fun (v2 : @B) => (v2))) v1 v2 end)
+==================================================
+>>> Preprocess embedding...
+==================================================
+
+LSTMCoder( # Param: 6,113,615 (24.5 MB), RngState: 2 (12 B), Total: 6,113,617 (24.5 MB)
+  graph_training_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x7715a416d1d0>,
+  graph_validation_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x7715a416d1d0>,
+  graph_lookup_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x7715a416ced0>,
+  graph_inference_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x7715a416cd90>,
+  dim=(256,),
+  cell=TreeLSTMCell( # Param: 5,961,728 (23.8 MB)
+    dim=128,
+    edges_param=Param( # 5,898,240 (23.6 MB)
+      value=Array(shape=(90, 512, 128), dtype=dtype('float32'))
+    ),
+    bias_i=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x77193f814fe0>,
+      promote_dtype=<function promote_dtype at 0x77193f41e0c0>
+    ),
+    bias_f=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x77193f814fe0>,
+      promote_dtype=<function promote_dtype at 0x77193f41e0c0>
+    ),
+    bias_o=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x77193f814fe0>,
+      promote_dtype=<function promote_dtype at 0x77193f41e0c0>
+    ),
+    bias_u=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x77193f814fe0>,
+      promote_dtype=<function promote_dtype at 0x77193f41e0c0>
+    ),
+    use_ibmm=False,
+    hidden_scaling_function=<function main.<locals>.<lambda> at 0x771607605800>
+  ),
+  out=MLPHead( # Param: 151,887 (607.5 KB)
+    layers=[Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x77193f41df80>,
+      bias_init=<function zeros at 0x7719413113a0>,
+      dot_general=<function dot_general at 0x771941d01a80>,
+      promote_dtype=<function promote_dtype at 0x77193f41e0c0>
+    ), Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x77193f41df80>,
+      bias_init=<function zeros at 0x7719413113a0>,
+      dot_general=<function dot_general at 0x771941d01a80>,
+      promote_dtype=<function promote_dtype at 0x77193f41e0c0>
+    ), Linear( # Param: 20,303 (81.2 KB)
+      kernel=Param( # 20,224 (80.9 KB)
+        value=Array(shape=(256, 79), dtype=dtype('float32'))
+      ),
+      bias=Param( # 79 (316 B)
+        value=Array(shape=(79,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=79,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x77193f41df80>,
+      bias_init=<function zeros at 0x7719413113a0>,
+      dot_general=<function dot_general at 0x771941d01a80>,
+      promote_dtype=<function promote_dtype at 0x77193f41e0c0>
+    )],
+    last_dim=79,
+    fc1=Linear(...),
+    fc2=Linear(...),
+    fc3=Linear(...)
+  ),
+  rngs=Rngs( # RngState: 2 (12 B)
+    default=RngStream( # RngState: 2 (12 B)
+      tag='default',
+      key=RngKey( # 1 (8 B)
+        value=Array((), dtype=key<fry>) overlaying:
+        [    0 93123],
+        tag='default'
+      ),
+      count=RngCount( # 1 (4 B)
+        value=Array(11, dtype=uint32),
+        tag='default'
+      )
+    )
+  ),
+  contrastive_losses={},
+  uniformity_losses={},
+  label_losses={},
+  noise=<function main.<locals>.<lambda> at 0x771607604e00>,
+  closeness_fn=functools.partial(<function l2_squared_distance_argmin_memory_efficient at 0x7717b17bf560>, block_size=8192)
+)
+==================================================
+>>> Prepare ground truth for oracle...
+==================================================
+
+==================================================
+>>> Oracle data built, 44 definitions, ready for incoming connections
+==================================================
+
+Embedding data built, ready for incoming connections
+
+Python server running in graph mode
+
+>>> Creating lookup embeddings...
+
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=128, children_indices=256, edge_labels=256, children_range=128, level_labels=32, level_range=32, max_level_size=64)
+Proving:	forall (v0 : ((@Coq.Init.Logic.and) (@A)) (@B)), (@B)
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=32, children_indices=32, edge_labels=32, children_range=32, level_labels=16, level_range=16, max_level_size=64)
+proof:		fun (v0 : ((@Coq.Init.Logic.and) (@A)) (@A)) => (match (v0) as v1 in (@Coq.Init.Logic.and _ _) return (@A) with @Coq.Init.Logic.conj _ _ v1 v2 => (fun (v1 : @A) => (fun (v2 : @A) => (v2))) v1 v2 end)
+Proving:	forall (v0 : ((@Coq.Init.Logic.and) (@A)) (@B)), (@B)
+proof:		fun (v0 : ((@Coq.Init.Logic.and) (@A)) (@A)) => (match (v0) as v1 in (@Coq.Init.Logic.and _ _) return (@A) with @Coq.Init.Logic.conj _ _ v1 v2 => (fun (v1 : @A) => (fun (v2 : @A) => (v2))) v1 v2 end)
+==================================================
+>>> Preprocess embedding...
+==================================================
+
+LSTMCoder( # Param: 6,113,615 (24.5 MB), RngState: 2 (12 B), Total: 6,113,617 (24.5 MB)
+  graph_training_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x7773b7b8da50>,
+  graph_validation_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x7773b7b8da50>,
+  graph_lookup_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x7773b7b8d510>,
+  graph_inference_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x7773b7b8d5d0>,
+  dim=(256,),
+  cell=TreeLSTMCell( # Param: 5,961,728 (23.8 MB)
+    dim=128,
+    edges_param=Param( # 5,898,240 (23.6 MB)
+      value=Array(shape=(90, 512, 128), dtype=dtype('float32'))
+    ),
+    bias_i=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x77775792cfe0>,
+      promote_dtype=<function promote_dtype at 0x7777575360c0>
+    ),
+    bias_f=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x77775792cfe0>,
+      promote_dtype=<function promote_dtype at 0x7777575360c0>
+    ),
+    bias_o=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x77775792cfe0>,
+      promote_dtype=<function promote_dtype at 0x7777575360c0>
+    ),
+    bias_u=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x77775792cfe0>,
+      promote_dtype=<function promote_dtype at 0x7777575360c0>
+    ),
+    use_ibmm=False,
+    hidden_scaling_function=<function main.<locals>.<lambda> at 0x77741f7e5800>
+  ),
+  out=MLPHead( # Param: 151,887 (607.5 KB)
+    layers=[Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x777757535f80>,
+      bias_init=<function zeros at 0x7777594293a0>,
+      dot_general=<function dot_general at 0x777759e21a80>,
+      promote_dtype=<function promote_dtype at 0x7777575360c0>
+    ), Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x777757535f80>,
+      bias_init=<function zeros at 0x7777594293a0>,
+      dot_general=<function dot_general at 0x777759e21a80>,
+      promote_dtype=<function promote_dtype at 0x7777575360c0>
+    ), Linear( # Param: 20,303 (81.2 KB)
+      kernel=Param( # 20,224 (80.9 KB)
+        value=Array(shape=(256, 79), dtype=dtype('float32'))
+      ),
+      bias=Param( # 79 (316 B)
+        value=Array(shape=(79,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=79,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x777757535f80>,
+      bias_init=<function zeros at 0x7777594293a0>,
+      dot_general=<function dot_general at 0x777759e21a80>,
+      promote_dtype=<function promote_dtype at 0x7777575360c0>
+    )],
+    last_dim=79,
+    fc1=Linear(...),
+    fc2=Linear(...),
+    fc3=Linear(...)
+  ),
+  rngs=Rngs( # RngState: 2 (12 B)
+    default=RngStream( # RngState: 2 (12 B)
+      tag='default',
+      key=RngKey( # 1 (8 B)
+        value=Array((), dtype=key<fry>) overlaying:
+        [    0 93123],
+        tag='default'
+      ),
+      count=RngCount( # 1 (4 B)
+        value=Array(11, dtype=uint32),
+        tag='default'
+      )
+    )
+  ),
+  contrastive_losses={},
+  uniformity_losses={},
+  label_losses={},
+  noise=<function main.<locals>.<lambda> at 0x77741f7e4e00>,
+  closeness_fn=functools.partial(<function l2_squared_distance_argmin_memory_efficient at 0x7775d819f560>, block_size=8192)
+)
+==================================================
+>>> Prepare ground truth for oracle...
+==================================================
+
+==================================================
+>>> Oracle data built, 44 definitions, ready for incoming connections
+==================================================
+
+Embedding data built, ready for incoming connections
+
+Python server running in graph mode
+
+>>> Creating lookup embeddings...
+
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=256, children_indices=512, edge_labels=512, children_range=256, level_labels=32, level_range=32, max_level_size=64)
+Proving:	forall (v0 : Prop), (((@Coq.Init.Logic.iff) (v0)) (v0))
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=32, children_indices=64, edge_labels=64, children_range=32, level_labels=32, level_range=32, max_level_size=64)
+proof:		fun (v0 : Prop) => (((((@Coq.Init.Logic.conj) (forall (v1 : v0), (v0))) (forall (v1 : v0), (v0))) (fun (v1 : v0) => (v1))) (fun (v1 : v0) => (v1)))
+Proving:	forall (v0 : Prop), (((@Coq.Init.Logic.iff) (v0)) (v0))
+proof:		fun (v0 : Prop) => (((((@Coq.Init.Logic.conj) (forall (v1 : v0), (v0))) (forall (v1 : v0), (v0))) (fun (v1 : v0) => (v1))) (fun (v1 : v0) => (v1)))
+==================================================
+>>> Preprocess embedding...
+==================================================
+
+LSTMCoder( # Param: 6,113,615 (24.5 MB), RngState: 2 (12 B), Total: 6,113,617 (24.5 MB)
+  graph_training_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x79774db65150>,
+  graph_validation_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x79774db65150>,
+  graph_lookup_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x7977b40289d0>,
+  graph_inference_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x79774db64d10>,
+  dim=(256,),
+  cell=TreeLSTMCell( # Param: 5,961,728 (23.8 MB)
+    dim=128,
+    edges_param=Param( # 5,898,240 (23.6 MB)
+      value=Array(shape=(90, 512, 128), dtype=dtype('float32'))
+    ),
+    bias_i=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x797ae4aa8fe0>,
+      promote_dtype=<function promote_dtype at 0x797ae46b20c0>
+    ),
+    bias_f=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x797ae4aa8fe0>,
+      promote_dtype=<function promote_dtype at 0x797ae46b20c0>
+    ),
+    bias_o=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x797ae4aa8fe0>,
+      promote_dtype=<function promote_dtype at 0x797ae46b20c0>
+    ),
+    bias_u=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x797ae4aa8fe0>,
+      promote_dtype=<function promote_dtype at 0x797ae46b20c0>
+    ),
+    use_ibmm=False,
+    hidden_scaling_function=<function main.<locals>.<lambda> at 0x7977b12fd800>
+  ),
+  out=MLPHead( # Param: 151,887 (607.5 KB)
+    layers=[Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x797ae46b1f80>,
+      bias_init=<function zeros at 0x797ae65e13a0>,
+      dot_general=<function dot_general at 0x797ae6fb1a80>,
+      promote_dtype=<function promote_dtype at 0x797ae46b20c0>
+    ), Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x797ae46b1f80>,
+      bias_init=<function zeros at 0x797ae65e13a0>,
+      dot_general=<function dot_general at 0x797ae6fb1a80>,
+      promote_dtype=<function promote_dtype at 0x797ae46b20c0>
+    ), Linear( # Param: 20,303 (81.2 KB)
+      kernel=Param( # 20,224 (80.9 KB)
+        value=Array(shape=(256, 79), dtype=dtype('float32'))
+      ),
+      bias=Param( # 79 (316 B)
+        value=Array(shape=(79,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=79,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x797ae46b1f80>,
+      bias_init=<function zeros at 0x797ae65e13a0>,
+      dot_general=<function dot_general at 0x797ae6fb1a80>,
+      promote_dtype=<function promote_dtype at 0x797ae46b20c0>
+    )],
+    last_dim=79,
+    fc1=Linear(...),
+    fc2=Linear(...),
+    fc3=Linear(...)
+  ),
+  rngs=Rngs( # RngState: 2 (12 B)
+    default=RngStream( # RngState: 2 (12 B)
+      tag='default',
+      key=RngKey( # 1 (8 B)
+        value=Array((), dtype=key<fry>) overlaying:
+        [    0 93123],
+        tag='default'
+      ),
+      count=RngCount( # 1 (4 B)
+        value=Array(11, dtype=uint32),
+        tag='default'
+      )
+    )
+  ),
+  contrastive_losses={},
+  uniformity_losses={},
+  label_losses={},
+  noise=<function main.<locals>.<lambda> at 0x7977b12fce00>,
+  closeness_fn=functools.partial(<function l2_squared_distance_argmin_memory_efficient at 0x7979653ab560>, block_size=8192)
+)
+==================================================
+>>> Prepare ground truth for oracle...
+==================================================
+
+==================================================
+>>> Oracle data built, 44 definitions, ready for incoming connections
+==================================================
+
+Embedding data built, ready for incoming connections
+
+Python server running in graph mode
+
+>>> Creating lookup embeddings...
+
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=256, children_indices=512, edge_labels=512, children_range=256, level_labels=32, level_range=32, max_level_size=64)
+Proving:	forall (v0 : Prop), (forall (v1 : Prop), (forall (v2 : Prop), (forall (v3 : ((@Coq.Init.Logic.iff) (v0)) (v1)), (forall (v4 : ((@Coq.Init.Logic.iff) (v1)) (v2)), (((@Coq.Init.Logic.iff) (v0)) (v2))))))
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=64, children_indices=64, edge_labels=64, children_range=64, level_labels=32, level_range=32, max_level_size=64)
+proof:		fun (v0 : Prop) => (fun (v1 : Prop) => (fun (v2 : Prop) => (fun (v3 : ((@Coq.Init.Logic.iff) (v0)) (v1)) => (match (v3) as v4 in (@Coq.Init.Logic.and _ _) return (forall (v5 : ((@Coq.Init.Logic.iff) (v1)) (v2)), (((@Coq.Init.Logic.iff) (v0)) (v2))) with @Coq.Init.Logic.conj _ _ v4 v5 => (fun (v4 : forall (v5 : v0), (v1)) => (fun (v5 : forall (v6 : v1), (v0)) => (fun (v6 : ((@Coq.Init.Logic.iff) (v1)) (v2)) => (match (v6) as v7 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.iff) (v0)) (v2)) with @Coq.Init.Logic.conj _ _ v7 v8 => (fun (v7 : forall (v8 : v1), (v2)) => (fun (v8 : forall (v9 : v2), (v1)) => (((((@Coq.Init.Logic.conj) (forall (v9 : v0), (v2))) (forall (v9 : v2), (v0))) (fun (v9 : v0) => ((v7) ((v4) (v9))))) (fun (v9 : v2) => ((v5) ((v4) ((v5) ((v8) (v9))))))))) v7 v8 end)))) v4 v5 end))))
+Proving:	forall (v0 : Prop), (forall (v1 : Prop), (forall (v2 : Prop), (forall (v3 : ((@Coq.Init.Logic.iff) (v0)) (v1)), (forall (v4 : ((@Coq.Init.Logic.iff) (v1)) (v2)), (((@Coq.Init.Logic.iff) (v0)) (v2))))))
+proof:		fun (v0 : Prop) => (fun (v1 : Prop) => (fun (v2 : Prop) => (fun (v3 : ((@Coq.Init.Logic.iff) (v0)) (v1)) => (match (v3) as v4 in (@Coq.Init.Logic.and _ _) return (forall (v5 : ((@Coq.Init.Logic.iff) (v1)) (v2)), (((@Coq.Init.Logic.iff) (v0)) (v2))) with @Coq.Init.Logic.conj _ _ v4 v5 => (fun (v4 : forall (v5 : v0), (v1)) => (fun (v5 : forall (v6 : v1), (v0)) => (fun (v6 : ((@Coq.Init.Logic.iff) (v1)) (v2)) => (match (v6) as v7 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.iff) (v0)) (v2)) with @Coq.Init.Logic.conj _ _ v7 v8 => (fun (v7 : forall (v8 : v1), (v2)) => (fun (v8 : forall (v9 : v2), (v1)) => (((((@Coq.Init.Logic.conj) (forall (v9 : v0), (v2))) (forall (v9 : v2), (v0))) (fun (v9 : v0) => ((v7) ((v4) (v9))))) (fun (v9 : v2) => ((v5) ((v4) ((v5) ((v8) (v9))))))))) v7 v8 end)))) v4 v5 end))))
+==================================================
+>>> Preprocess embedding...
+==================================================
+
+LSTMCoder( # Param: 6,113,615 (24.5 MB), RngState: 2 (12 B), Total: 6,113,617 (24.5 MB)
+  graph_training_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x77900e1a0110>,
+  graph_validation_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x77900e1a0110>,
+  graph_lookup_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x77907751c290>,
+  graph_inference_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x779074914590>,
+  dim=(256,),
+  cell=TreeLSTMCell( # Param: 5,961,728 (23.8 MB)
+    dim=128,
+    edges_param=Param( # 5,898,240 (23.6 MB)
+      value=Array(shape=(90, 512, 128), dtype=dtype('float32'))
+    ),
+    bias_i=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x7793a88d0fe0>,
+      promote_dtype=<function promote_dtype at 0x7793a84da0c0>
+    ),
+    bias_f=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x7793a88d0fe0>,
+      promote_dtype=<function promote_dtype at 0x7793a84da0c0>
+    ),
+    bias_o=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x7793a88d0fe0>,
+      promote_dtype=<function promote_dtype at 0x7793a84da0c0>
+    ),
+    bias_u=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x7793a88d0fe0>,
+      promote_dtype=<function promote_dtype at 0x7793a84da0c0>
+    ),
+    use_ibmm=False,
+    hidden_scaling_function=<function main.<locals>.<lambda> at 0x7790747b1800>
+  ),
+  out=MLPHead( # Param: 151,887 (607.5 KB)
+    layers=[Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x7793a84d9f80>,
+      bias_init=<function zeros at 0x7793aa4093a0>,
+      dot_general=<function dot_general at 0x7793aadc9a80>,
+      promote_dtype=<function promote_dtype at 0x7793a84da0c0>
+    ), Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x7793a84d9f80>,
+      bias_init=<function zeros at 0x7793aa4093a0>,
+      dot_general=<function dot_general at 0x7793aadc9a80>,
+      promote_dtype=<function promote_dtype at 0x7793a84da0c0>
+    ), Linear( # Param: 20,303 (81.2 KB)
+      kernel=Param( # 20,224 (80.9 KB)
+        value=Array(shape=(256, 79), dtype=dtype('float32'))
+      ),
+      bias=Param( # 79 (316 B)
+        value=Array(shape=(79,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=79,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x7793a84d9f80>,
+      bias_init=<function zeros at 0x7793aa4093a0>,
+      dot_general=<function dot_general at 0x7793aadc9a80>,
+      promote_dtype=<function promote_dtype at 0x7793a84da0c0>
+    )],
+    last_dim=79,
+    fc1=Linear(...),
+    fc2=Linear(...),
+    fc3=Linear(...)
+  ),
+  rngs=Rngs( # RngState: 2 (12 B)
+    default=RngStream( # RngState: 2 (12 B)
+      tag='default',
+      key=RngKey( # 1 (8 B)
+        value=Array((), dtype=key<fry>) overlaying:
+        [    0 93123],
+        tag='default'
+      ),
+      count=RngCount( # 1 (4 B)
+        value=Array(11, dtype=uint32),
+        tag='default'
+      )
+    )
+  ),
+  contrastive_losses={},
+  uniformity_losses={},
+  label_losses={},
+  noise=<function main.<locals>.<lambda> at 0x7790747b0e00>,
+  closeness_fn=functools.partial(<function l2_squared_distance_argmin_memory_efficient at 0x779229193560>, block_size=8192)
+)
+==================================================
+>>> Prepare ground truth for oracle...
+==================================================
+
+==================================================
+>>> Oracle data built, 44 definitions, ready for incoming connections
+==================================================
+
+Embedding data built, ready for incoming connections
+
+Python server running in graph mode
+
+>>> Creating lookup embeddings...
+
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=256, children_indices=512, edge_labels=512, children_range=256, level_labels=32, level_range=32, max_level_size=64)
+Proving:	forall (v0 : Prop), (forall (v1 : Prop), (forall (v2 : ((@Coq.Init.Logic.iff) (v0)) (v1)), (((@Coq.Init.Logic.iff) (v1)) (v0))))
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=32, children_indices=64, edge_labels=64, children_range=32, level_labels=32, level_range=32, max_level_size=64)
+proof:		fun (v0 : Prop) => (fun (v1 : Prop) => (fun (v2 : ((@Coq.Init.Logic.iff) (v0)) (v1)) => (match (v2) as v3 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.iff) (v1)) (v0)) with @Coq.Init.Logic.conj _ _ v3 v4 => (fun (v3 : forall (v4 : v0), (v1)) => (fun (v4 : forall (v5 : v1), (v0)) => (((((@Coq.Init.Logic.conj) (forall (v5 : v1), (v0))) (forall (v5 : v0), (v1))) (v4)) (v3)))) v3 v4 end)))
+Proving:	forall (v0 : Prop), (forall (v1 : Prop), (forall (v2 : ((@Coq.Init.Logic.iff) (v0)) (v1)), (((@Coq.Init.Logic.iff) (v1)) (v0))))
+proof:		fun (v0 : Prop) => (fun (v1 : Prop) => (fun (v2 : ((@Coq.Init.Logic.iff) (v0)) (v1)) => (match (v2) as v3 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.iff) (v1)) (v0)) with @Coq.Init.Logic.conj _ _ v3 v4 => (fun (v3 : forall (v4 : v0), (v1)) => (fun (v4 : forall (v5 : v1), (v0)) => (((((@Coq.Init.Logic.conj) (forall (v5 : v1), (v0))) (forall (v5 : v0), (v1))) (v4)) (v3)))) v3 v4 end)))
+==================================================
+>>> Preprocess embedding...
+==================================================
+
+LSTMCoder( # Param: 6,113,615 (24.5 MB), RngState: 2 (12 B), Total: 6,113,617 (24.5 MB)
+  graph_training_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x79f96f5b1850>,
+  graph_validation_pipeline=<sanity.data.sample.BuildEncDecGraph object at 0x79f96f5b1850>,
+  graph_lookup_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x79f9d92380d0>,
+  graph_inference_pipeline=<sanity.data.sample.ExpandNodesToGraph object at 0x79f9d9238290>,
+  dim=(256,),
+  cell=TreeLSTMCell( # Param: 5,961,728 (23.8 MB)
+    dim=128,
+    edges_param=Param( # 5,898,240 (23.6 MB)
+      value=Array(shape=(90, 512, 128), dtype=dtype('float32'))
+    ),
+    bias_i=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x79fd0e434fe0>,
+      promote_dtype=<function promote_dtype at 0x79fd0e03e0c0>
+    ),
+    bias_f=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x79fd0e434fe0>,
+      promote_dtype=<function promote_dtype at 0x79fd0e03e0c0>
+    ),
+    bias_o=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x79fd0e434fe0>,
+      promote_dtype=<function promote_dtype at 0x79fd0e03e0c0>
+    ),
+    bias_u=Embed( # Param: 15,872 (63.5 KB)
+      embedding=Param( # 15,872 (63.5 KB)
+        value=Array(shape=(124, 128), dtype=dtype('float32'))
+      ),
+      num_embeddings=124,
+      features=128,
+      dtype=dtype('float32'),
+      param_dtype=float32,
+      embedding_init=<function variance_scaling.<locals>.init at 0x79fd0e434fe0>,
+      promote_dtype=<function promote_dtype at 0x79fd0e03e0c0>
+    ),
+    use_ibmm=False,
+    hidden_scaling_function=<function main.<locals>.<lambda> at 0x79f9d630d800>
+  ),
+  out=MLPHead( # Param: 151,887 (607.5 KB)
+    layers=[Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x79fd0e03df80>,
+      bias_init=<function zeros at 0x79fd0ff313a0>,
+      dot_general=<function dot_general at 0x79fd1095da80>,
+      promote_dtype=<function promote_dtype at 0x79fd0e03e0c0>
+    ), Linear( # Param: 65,792 (263.2 KB)
+      kernel=Param( # 65,536 (262.1 KB)
+        value=Array(shape=(256, 256), dtype=dtype('float32'))
+      ),
+      bias=Param( # 256 (1.0 KB)
+        value=Array(shape=(256,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=256,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x79fd0e03df80>,
+      bias_init=<function zeros at 0x79fd0ff313a0>,
+      dot_general=<function dot_general at 0x79fd1095da80>,
+      promote_dtype=<function promote_dtype at 0x79fd0e03e0c0>
+    ), Linear( # Param: 20,303 (81.2 KB)
+      kernel=Param( # 20,224 (80.9 KB)
+        value=Array(shape=(256, 79), dtype=dtype('float32'))
+      ),
+      bias=Param( # 79 (316 B)
+        value=Array(shape=(79,), dtype=dtype('float32'))
+      ),
+      in_features=256,
+      out_features=79,
+      use_bias=True,
+      dtype=None,
+      param_dtype=float32,
+      precision=Precision.HIGHEST,
+      kernel_init=<function variance_scaling.<locals>.init at 0x79fd0e03df80>,
+      bias_init=<function zeros at 0x79fd0ff313a0>,
+      dot_general=<function dot_general at 0x79fd1095da80>,
+      promote_dtype=<function promote_dtype at 0x79fd0e03e0c0>
+    )],
+    last_dim=79,
+    fc1=Linear(...),
+    fc2=Linear(...),
+    fc3=Linear(...)
+  ),
+  rngs=Rngs( # RngState: 2 (12 B)
+    default=RngStream( # RngState: 2 (12 B)
+      tag='default',
+      key=RngKey( # 1 (8 B)
+        value=Array((), dtype=key<fry>) overlaying:
+        [    0 93123],
+        tag='default'
+      ),
+      count=RngCount( # 1 (4 B)
+        value=Array(11, dtype=uint32),
+        tag='default'
+      )
+    )
+  ),
+  contrastive_losses={},
+  uniformity_losses={},
+  label_losses={},
+  noise=<function main.<locals>.<lambda> at 0x79f9d630ce00>,
+  closeness_fn=functools.partial(<function l2_squared_distance_argmin_memory_efficient at 0x79fb8edef560>, block_size=8192)
+)
+==================================================
+>>> Prepare ground truth for oracle...
+==================================================
+
+==================================================
+>>> Oracle data built, 44 definitions, ready for incoming connections
+==================================================
+
+Embedding data built, ready for incoming connections
+
+Python server running in graph mode
+
+>>> Creating lookup embeddings...
+
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=256, children_indices=512, edge_labels=512, children_range=256, level_labels=32, level_range=32, max_level_size=64)
+Proving:	forall (v0 : Prop), (forall (v1 : Prop), (forall (v2 : Prop), (forall (v3 : ((@Coq.Init.Logic.iff) (v1)) (v2)), (((@Coq.Init.Logic.iff) (((@Coq.Init.Logic.and) (v0)) (v1))) (((@Coq.Init.Logic.and) (v0)) (v2))))))
+[jit_compute_encoding] Recompiling for size LevelDAG(node_labels=64, children_indices=64, edge_labels=64, children_range=64, level_labels=32, level_range=32, max_level_size=64)
+proof:		fun (v0 : Prop) => (fun (v1 : Prop) => (fun (v2 : Prop) => (fun (v3 : ((@Coq.Init.Logic.iff) (v1)) (v2)) => (match (v3) as v4 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.iff) (((@Coq.Init.Logic.and) (v0)) (v1))) (((@Coq.Init.Logic.and) (v0)) (v2))) with @Coq.Init.Logic.conj _ _ v4 v5 => (fun (v4 : forall (v5 : v1), (v2)) => (fun (v5 : forall (v6 : v2), (v1)) => (((((@Coq.Init.Logic.conj) (forall (v6 : ((@Coq.Init.Logic.and) (v0)) (v1)), (((@Coq.Init.Logic.and) (v0)) (v2)))) (forall (v6 : ((@Coq.Init.Logic.and) (v0)) (v2)), (((@Coq.Init.Logic.and) (v0)) (v1)))) (fun (v6 : ((@Coq.Init.Logic.and) (v0)) (v1)) => (match (v6) as v7 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.and) (v0)) (v2)) with @Coq.Init.Logic.conj _ _ v7 v8 => (fun (v7 : v0) => (fun (v8 : v1) => (((((@Coq.Init.Logic.conj) (v0)) (v2)) (v7)) ((v4) (v8))))) v7 v8 end))) (fun (v6 : ((@Coq.Init.Logic.and) (v0)) (v2)) => (match (v6) as v7 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.and) (v0)) (v1)) with @Coq.Init.Logic.conj _ _ v7 v8 => (fun (v7 : v0) => (fun (v8 : v2) => (((((@Coq.Init.Logic.conj) (v0)) (v1)) (v7)) ((v5) (v8))))) v7 v8 end))))) v4 v5 end))))
+Proving:	forall (v0 : Prop), (forall (v1 : Prop), (forall (v2 : Prop), (forall (v3 : ((@Coq.Init.Logic.iff) (v1)) (v2)), (((@Coq.Init.Logic.iff) (((@Coq.Init.Logic.and) (v0)) (v1))) (((@Coq.Init.Logic.and) (v0)) (v2))))))
+proof:		fun (v0 : Prop) => (fun (v1 : Prop) => (fun (v2 : Prop) => (fun (v3 : ((@Coq.Init.Logic.iff) (v1)) (v2)) => (match (v3) as v4 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.iff) (((@Coq.Init.Logic.and) (v0)) (v1))) (((@Coq.Init.Logic.and) (v0)) (v2))) with @Coq.Init.Logic.conj _ _ v4 v5 => (fun (v4 : forall (v5 : v1), (v2)) => (fun (v5 : forall (v6 : v2), (v1)) => (((((@Coq.Init.Logic.conj) (forall (v6 : ((@Coq.Init.Logic.and) (v0)) (v1)), (((@Coq.Init.Logic.and) (v0)) (v2)))) (forall (v6 : ((@Coq.Init.Logic.and) (v0)) (v2)), (((@Coq.Init.Logic.and) (v0)) (v1)))) (fun (v6 : ((@Coq.Init.Logic.and) (v0)) (v1)) => (match (v6) as v7 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.and) (v0)) (v2)) with @Coq.Init.Logic.conj _ _ v7 v8 => (fun (v7 : v0) => (fun (v8 : v1) => (((((@Coq.Init.Logic.conj) (v0)) (v2)) (v7)) ((v4) (v8))))) v7 v8 end))) (fun (v6 : ((@Coq.Init.Logic.and) (v0)) (v2)) => (match (v6) as v7 in (@Coq.Init.Logic.and _ _) return (((@Coq.Init.Logic.and) (v0)) (v1)) with @Coq.Init.Logic.conj _ _ v7 v8 => (fun (v7 : v0) => (fun (v8 : v2) => (((((@Coq.Init.Logic.conj) (v0)) (v1)) (v7)) ((v5) (v8))))) v7 v8 end))))) v4 v5 end))))
