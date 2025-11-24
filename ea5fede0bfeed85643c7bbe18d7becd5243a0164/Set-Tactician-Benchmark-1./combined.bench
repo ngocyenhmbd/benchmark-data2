@@ -1,0 +1,125 @@
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj1	1	0.000384	0	1
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj2	1	0.001284	2	2	0.0	synth with cache (only 1: destruct 1; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_refl	1	0.000636	2	1
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_trans	1	0.007459	59	19	2.2.0.0.1	synth with cache (only 1: destruct 1; only 1: destruct 1; only 1: split; only 1: auto; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_sym	1	0.025124	196	95	0.0.1.0.0.0.1	synth with cache (only 1: intros C; only 1: intros _tmp_tactician0; only 1: intros _tmp_tactician2; only 1: destruct _tmp_tactician2 as [H3 H4]; only 1: split; only 1: auto; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_l	1	1.009958	7355	3161
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_r	1	1.005185	3457	2022
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_l	1	1.004560	2816	1597
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_r	1	1.003657	2128	1172
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_l	1	1.003468	2251	1185
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_r	1	1.002860	1880	1074
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	1	0.010019	8	8	0.0.0.0.0.0.0.0	synth with cache (only 1: intros ?; only 1: intros B; only 1: intros _tmp_tactician0; only 1: destruct _tmp_tactician0 as [H1 H2]; only 1: split; only 1: auto; only 1: intros _tmp_tactician2; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.neg_false	1	1.006729	5216	1066
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_l	1	1.002487	1555	792
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_r	1	1.001956	1090	710
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_comm	1	0.537854	899	539	0.0.0.1.0.0.0.1.0.0.0	synth with cache (only 1: intros ?; only 1: intros _tmp_tactician0; only 1: split; only 1: destruct 1; only 1: split; only 1: trivial; only 1: trivial; only 1: destruct 1; only 1: split; only 1: trivial; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_assoc	1	1.003173	1831	829
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_l	1	1.002067	1160	781
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_r	1	1.001553	807	620
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_comm	1	0.976354	1925	864	0.0.0.1.0.0.0.0.0.1.0.0.0.0	synth with cache (only 1: intros; only 1: split; only 1: intros _tmp_tactician0; only 1: destruct _tmp_tactician0 as [?| ?]; only 1: right; only 1: trivial; only 1: left; only 1: trivial; only 1: intros _tmp_tactician0; only 1: destruct _tmp_tactician0 as [?| ?]; only 1: right; only 1: trivial; only 1: left; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_assoc	1	1.002724	1690	636
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_and	1	0.010063	14	9	2.0.0.0	synth with cache (only 1: intros ?; only 1: intros C; only 1: intros _tmp_tactician0; only 1: assumption).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_to_and	1	0.867830	1234	726	4.0.0.0.0.0.0.0.0.0	synth with cache (only 1: intros ?; only 1: intros B; only 1: split; only 1: intros _tmp_tactician0; only 1: destruct _tmp_tactician0 as []; only 1: split; only 1: trivial; only 1: trivial; only 1: intros _tmp_tactician0; only 1: assumption).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.universal_quantification.inst	1	0.283237	1046	190	14.0	synth with cache (only 1: intros B; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.universal_quantification.gen	1	0.003640	2	2	0.0	synth with cache (only 1: unfold all; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.absurd	1	1.003011	1810	831
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_sym	1	0.007466	12	3	1.4	synth with cache (only 1: destruct 1; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_trans	1	0.005777	3	3	0.0.0	synth with cache (only 1: destruct 1; only 1: destruct 1; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_trans_r	1	0.004982	2	2	0.0	synth with cache (only 1: destruct 2; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.f_equal	1	0.005284	2	2	0.0	synth with cache (only 1: destruct 1; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	1	1.006557	4915	499
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_sind_r	1	0.182614	199	87	0.2.1.0.1.0.0	synth with cache (only 1: intros A; only 1: intros ?; only 1: intros B; only 1: intros C; only 1: intros h2; only 1: destruct 1; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_ind_r	1	0.011359	8	8	0.0.0.0.0.0.0.0	synth with cache (only 1: intros A; only 1: intros x; only 1: intros P; only 1: intros H; only 1: intros y; only 1: intros H0; only 1: elim eq_sym with (1 := H0); only 1: assumption).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_rec_r	1	0.011583	8	8	0.0.0.0.0.0.0.0	synth with cache (only 1: intros A; only 1: intros x; only 1: intros P; only 1: intros H; only 1: intros y; only 1: intros H0; only 1: elim eq_sym with (1 := H0); only 1: assumption).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_rect_r	1	0.012021	8	8	0.0.0.0.0.0.0.0	synth with cache (only 1: intros A; only 1: intros x; only 1: intros P; only 1: intros H; only 1: intros y; only 1: intros H0; only 1: elim eq_sym with (1 := H0); only 1: assumption).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.equality_dep.f_equal_dep	1	0.030909	99	19	0.6.2	synth with cache (only 1: intros h2; only 1: destruct h2; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.equality_dep2.f_equal_dep2	1	0.007397	6	3	1.0.2	synth with cache (only 1: destruct 1; only 1: destruct H; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_opp_r	1	0.007078	5	3	1.1.0	synth with cache (only 1: intros until H; only 1: destruct H; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_opp_l	1	0.006793	3	3	0.0.0	synth with cache (only 1: intros; only 1: destruct H; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal2	1	0.034899	41	28	0.1.3	synth with cache (only 1: destruct 2; only 1: destruct H; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal3	1	0.008012	5	4	0.0.0.1	synth with cache (only 1: destruct 1; only 1: destruct 1; only 1: destruct 1; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal4	1	0.009251	5	5	0.0.0.0.0	synth with cache (only 1: destruct 1; only 1: destruct 1; only 1: destruct 1; only 1: destruct 1; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal5	1	0.011301	6	6	0.0.0.0.0.0	synth with cache (only 1: destruct 1; only 1: destruct 1; only 1: destruct 1; only 1: destruct 1; only 1: destruct 1; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal_compose	1	1.002610	1543	487
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_refl_l	1	0.007755	5	3	0.0.2	synth with cache (only 1: intros until e; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_refl_r	1	0.007974	3	3	0.0.0	synth with cache (only 1: intros until e; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_sym_involutive	1	0.007256	3	3	0.0.0	synth with cache (only 1: intros until e; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_inv_l	1	0.008862	3	3	0.0.0	synth with cache (only 1: intros until e; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_inv_r	1	0.008287	3	3	0.0.0	synth with cache (only 1: intros until e; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_assoc	1	0.783664	1028	406	0.0.2.1.1.2.0	synth with cache (only 1: intros until e; only 1: intros h2; only 1: destruct h2; only 1: intros h2; only 1: destruct h2; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_map	1	0.009152	4	3	1.0.0	synth with cache (only 1: intros until H; only 1: destruct H; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_map	1	1.003091	2073	444
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.map_subst	1	0.009665	4	3	0.1.0	synth with cache (only 1: intros until H; only 1: destruct H; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.map_subst_map	1	0.010582	3	3	0.0.0	synth with cache (only 1: intros until H; only 1: destruct H; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_swap	1	0.029830	33	9	0.0.5	synth with cache (only 1: destruct 1; only 1: destruct H; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_compose	1	0.009505	5	3	2.0.0	synth with cache (only 1: intros; only 1: destruct H2; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_id_comm_l	1	1.003750	2558	538
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_id_comm_r	1	1.003080	2105	489
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_refl_map_distr	1	0.006019	2	2	0.0	synth with cache (only 1: intros; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_map_distr	1	0.873843	1481	294	2.4.4.1.4	synth with cache (only 1: intros; only 1: destruct e; only 1: rewrite eq_trans_refl_l; only 1: rewrite eq_trans_refl_l; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_sym_map_distr	1	0.009952	5	3	0.2.0	synth with cache (only 1: intros until e; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_distr	1	0.021636	20	7	0.1.0.1	synth with cache (only 1: intros until e'; only 1: destruct e'; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_rew_distr	1	0.010409	4	3	0.0.1	synth with cache (only 1: intros; only 1: destruct e'; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_const	1	0.008635	4	3	0.1.0	synth with cache (only 1: intros; only 1: destruct e; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.unique_existence	1	1.003184	2170	536
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.forall_exists_unique_domain_coincide	1	1.002205	1081	440
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.forall_exists_coincide_unique_domain	1	1.003292	2232	423
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.exists_inhabited	1	1.002942	1478	293
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.inhabited_covariant	1	0.006923	3	3	0.0.0	synth with cache (only 1: intros H; only 1: destruct 1; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_stepl	1	0.032951	32	11	0.0.6	synth with cache (only 1: destruct 1; only 1: destruct 1; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_stepl	1	1.001831	804	546
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex.eq_ex_uncurried	1	1.012346	11317	272
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex.rew_ex	1	1.005384	3853	215
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex2.eq_ex2_uncurried	1	0.198060	142	41	0.1.5.0.0	synth with cache (only 1: destruct pq as [p q]; only 1: destruct q; only 1: destruct H; only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex2.rew_ex2	1	0.023962	3	3	0.0.0	synth with cache (only 1: destruct H; only 1: destruct u; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Byte.of_bits_to_bits	1	1.001969	704	394
+coq-tactician-stdlib.8.11.dev	Coq.Init.Byte.to_bits_of_bits	1	1.002967	1426	191
+coq-tactician-stdlib.8.11.dev	Coq.Init.Tactics.decide_left	1	1.003611	1800	469
+coq-tactician-stdlib.8.11.dev	Coq.Init.Tactics.decide_right	1	0.012879	6	4	1.1.0.0	synth with cache (only 1: intros; only 1: destruct decide; only 1: contradiction; only 1: apply H0).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT_eta	1	1.015601	11045	322
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig_eta	1	0.008647	2	2	0.0	synth with cache (only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT2_eta	1	0.010883	3	2	0.1	synth with cache (only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig2_eta	1	0.007266	2	2	0.0	synth with cache (only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.exists_to_inhabited_sig	1	0.173229	651	92	0.0.6.7.0	synth with cache (only 1: intros _tmp_tactician0; only 1: destruct _tmp_tactician0 as (x, _tmp_tactician4); only 1: split; only 1: exists x; only 1: trivial).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.inhabited_sig_to_exists	1	1.007815	6047	373
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.eq_existT_uncurried	1	0.011526	5	4	0.1.0.0	synth with cache (only 1: destruct pq as [p q]; only 1: destruct q; only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.eq_sigT_uncurried	1	1.005078	3690	332
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.eq_existT_curried	1	0.012464	4	3	0.1.0	synth with cache (only 1: destruct q; only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.eq_existT_curried_map	1	0.025308	10	4	0.4.0	synth with cache (only 1: destruct q; only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.eq_existT_curried_trans	1	1.003173	1775	209
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.eq_existT_curried_congr	1	1.002085	746	172
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.eq_sigT_uncurried_iff	1	1.019394	1491	262
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.eq_sigT_rect	1	1.010450	1053	223
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT.rew_sigT	1	0.015824	4	3	0.1.0	synth with cache (only 1: destruct H; only 1: destruct u; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig.eq_exist_uncurried	1	0.020330	5	4	0.1.0.0	synth with cache (only 1: destruct pq as [p q]; only 1: destruct q; only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig.eq_sig_uncurried	1	0.042756	8	7	0.1.0.0.0.0.0	synth with cache (only 1: destruct u as [u1 u2]; only 1: destruct v as [v1 v2]; only 1: simpl in *; only 1: destruct pq as [p q]; only 1: destruct q; only 1: destruct p; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig.eq_sig_rect	1	1.002248	614	203
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig.eq_sig_uncurried_iff	1	1.002207	450	237
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig.rew_sig	1	0.022444	3	3	0.0.0	synth with cache (only 1: destruct H; only 1: destruct u; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT2.eq_existT2_uncurried	1	1.007292	3587	137
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT2.eq_sigT2_uncurried	1	1.002242	687	167
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT2.eq_sigT2_uncurried_iff	1	1.001944	505	190
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT2.eq_sigT2_rect	1	1.001701	401	147
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sigT2.rew_sigT2	1	0.024146	3	3	0.0.0	synth with cache (only 1: destruct H; only 1: destruct u; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig2.eq_exist2_uncurried	1	0.027423	6	6	0.0.0.0.0.0	synth with cache (only 1: destruct pqr as [p q r]; only 1: destruct r; only 1: destruct q; only 1: destruct p; only 1: simpl in *; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig2.eq_sig2_uncurried	1	0.860228	310	152	0.0.0.0.0.1.0.0.0	synth with cache (only 1: destruct u as [u1 u2 u3]; only 1: destruct v as [v1 v2 v3]; only 1: simpl in *; only 1: destruct pqr as [p q r]; only 1: destruct r; only 1: destruct q; only 1: destruct p; only 1: simpl; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig2.eq_sig2_uncurried_iff	1	1.001206	344	186
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig2.eq_sig2_rect	1	1.001217	456	173
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.sig2.rew_sig2	1	0.060833	3	3	0.0.0	synth with cache (only 1: destruct H; only 1: destruct u; only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.Choice_lemmas.Choice	1	1.007808	6663	314
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.Choice_lemmas.Choice2	1	1.007772	6508	328
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.Choice_lemmas.bool_choice	1	1.007379	6368	355
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.Dependent_choice_lemmas.dependent_choice	1	1.003658	2809	348
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.absurd_set	1	0.011602	6	6	0.0.0.0.0.0	synth with cache (only 1: unfold not; only 1: intros A; only 1: intros C; only 1: intros h1; only 1: intros h2; only 1: destruct (h2 h1)).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.pred_Sn	1	0.001945	3	1	2	synth with cache (only 1: reflexivity).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.not_eq_S	1	0.018775	74	15	0.9	synth with cache (only 1: intros ?; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.O_S	1	0.007808	10	5	4	synth with cache (only 1: discriminate).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.n_Sn	1	1.005998	4958	786
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.plus_n_O	1	1.005262	4085	540
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.plus_O_n	1	0.011340	6	6	0.0.0.0.0.0	synth with cache (only 1: intros until n; only 1: induction n; only 1: simpl; only 1: auto; only 1: simpl; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.plus_n_Sm	1	0.237941	773	120	0.0.0.0.2.14.2	synth with cache (only 1: intros until n; only 1: intros H; only 1: induction n; only 1: simpl; only 1: auto; only 1: simpl; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.plus_Sn_m	1	0.012779	7	7	0.0.0.0.0.0.0	synth with cache (only 1: intros n; only 1: intros m; only 1: induction n; only 1: simpl; only 1: auto; only 1: simpl; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.mult_n_O	1	0.009284	6	6	0.0.0.0.0.0	synth with cache (only 1: intros until n; only 1: induction n; only 1: simpl; only 1: auto; only 1: simpl; only 1: auto).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.mult_n_Sm	1	1.003406	2449	596
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.le_pred	1	1.004220	2954	778

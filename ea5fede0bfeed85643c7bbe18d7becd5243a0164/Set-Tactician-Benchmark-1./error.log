@@ -2,5 +2,11 @@
 
 ------------------ Benchmark terminated -----------------------
 
-Fatal benchmarking error: Termination request received: sigint
+Fatal benchmarking error: (68f2cacc-1d7d-34e0-1252-9144a5ae6304
+ (monitor.ml.Error ("OpamStd.OpamSys.Exit(31)")
+  ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 251, characters 17-26"
+   "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"
+   "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")))
 Fatal benchmarking error: Initial build did not fully complete
+Non-fatal benchmarking error: Coq process ended abruptly. Invocation: (cd /home/brai/benchmark-system/build/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev && /home/brai/benchmark-system/build/opam-root/bench/lib/coq-tactician/coqc.real /home/brai/benchmark-system/build/opam-root/bench/lib/coq-tactician/coqc.real -q -I /home/brai/benchmark-system/build/opam-root/bench/lib/coq/user-contrib/Tactician -R /home/brai/benchmark-system/build/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record -l /home/brai/benchmark-system/build/opam-root/bench/share/coq-tactician/plugins/zzz-benchmark/Injections.v -q -coqlib . -I /home/brai/benchmark-system/build/opam-root/bench/lib/coq/user-contrib/Tactician -R /home/brai/benchmark-system/build/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record -noinit -R theories Coq theories/Init/Peano.v -l /home/brai/benchmark-system/build/BenchParams.v)
+Fatal benchmarking error: Abnormal exit code for build worker on host 902190b4a50c. Code: 254
