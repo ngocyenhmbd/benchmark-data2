@@ -1,0 +1,61 @@
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rpower.P_Rmin	40	0.000000	66986320047416	66986320047424
+coq-tactician-stdlib.8.11.dev	Coq.Reals.RiemannInt_SF.IZN_var	40	0.000000	67655447847768	67655447847776
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.psos_r1b	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ratan.Ropp_div	40	0.000000	64902473425576	64902473425584
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ratan.pos_half_prf	40	0.000000	64902473416592	64902473416600
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.psos_r1	40	0.000000	66193072294476	66193072294484
+coq-tactician-stdlib.8.11.dev	Coq.setoid_ring.Rings_R.Rsth	40	0.000000	64266852867636	64266852867644
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.E1_cvg	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo1.CVN_R_cos	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rgeom.distance_refl	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_calc.tan_PI	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_reg.continuity_sin	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis4.derivable_pt_inv	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rpower.exp_le_3	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis_reg.AppVar	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.RiemannInt.phi_sequence_prop	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.RiemannInt_SF.Nzorn	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.NewtonInt.FTCN_step1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis5.f_incr_implies_g_incr_interv	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis5.derivable_pt_id_interv	40	0.000000	64636091069804	64636091069812
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Machin.atan_sub_correct	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.NewtonInt.FTC_Newton	40	0.000000	66105631536400	66105631536408
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ratan.Boule_half_to_interval	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.nsatzR_diff	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.P0Z_correct	40	0.000000	66193072273860	66193072273868
+coq-tactician-stdlib.8.11.dev	Coq.setoid_ring.Rings_R.Rri	40
+coq-tactician-stdlib.8.11.dev	Coq.setoid_ring.Rings_R.Rcri	40	0.000000	64266852846904	64266852846912
+coq-tactician-stdlib.8.11.dev	Coq.setoid_ring.Rings_R.R_one_zero	40	0.000000	64266852837924	64266852837932
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.exp_form	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.div2_double	40	0.000000	63159147647964	63159147647972
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.div2_S_double	40	0.000000	63159147638976	63159147638984
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rgeom.distance_symm	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo1.continuity_cos	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_calc.sin_3PI2	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_reg.CVN_R_sin	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis4.pr_nu_var	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rpower.exp_increasing	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.RiemannInt.RiemannInt_P1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.RiemannInt_SF.StepFun_P1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Machin.tech	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis5.pr_nu_var2_interv	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.NewtonInt.NewtonInt_P1	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ratan.Boule_lt	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.Rext	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.Rset	40	0.000000	66193072252236	66193072252244
+coq-tactician-stdlib.8.11.dev	Coq.setoid_ring.Rings_R.Rdi	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Exp_prop.div2_not_R0	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rgeom.law_cosines	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo1.sin_gt_cos_7_8	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_calc.tan_2PI	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rtrigo_reg.derivable_pt_lim_sin_0	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis4.pr_nu_var2	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Rpower.exp_lt_inv	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.RiemannInt.RiemannInt_P2	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Cos_plus.Majxy_cv_R0	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.RiemannInt_SF.StepFun_P2	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Machin.Machin_2_3	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ranalysis5.leftinv_is_rightinv	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.NewtonInt.NewtonInt_P2	40
+coq-tactician-stdlib.8.11.dev	Coq.Reals.Ratan.Un_cv_ext	40
+coq-tactician-stdlib.8.11.dev	Coq.nsatz.Nsatz.nsatz1.Rtheory	40
