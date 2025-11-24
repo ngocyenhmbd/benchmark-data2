@@ -1,66 +1,6 @@
-File "./theories/Init/Logic.v", line 329, characters 4-21:
-Warning:
-Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
-File "./theories/Init/Logic.v", line 334, characters 4-14:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 379, characters 4-33:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 390, characters 6-26:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 397, characters 6-26:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 404, characters 6-26:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 409, characters 6-26:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 416, characters 6-56:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 424, characters 4-24:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 429, characters 4-24:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 436, characters 4-64:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Init/Logic.v", line 441, characters 4-64:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 475, characters 4-28:
 Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 493, characters 4-18:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
