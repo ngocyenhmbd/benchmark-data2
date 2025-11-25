@@ -1,82 +1,82 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj1	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj2	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_refl	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_trans	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_sym	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.neg_false	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_comm	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_assoc	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_comm	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_assoc	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_and	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_to_and	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.universal_quantification.inst	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.universal_quantification.gen	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.absurd	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_sym	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_trans	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_trans_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.f_equal	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_sind_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_ind_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_rec_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_rect_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.equality_dep.f_equal_dep	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.equality_dep2.f_equal_dep2	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_opp_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_opp_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal2	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal3	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal4	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal5	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal_compose	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_refl_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_refl_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_sym_involutive	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_inv_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_inv_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_assoc	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_map	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_map	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.map_subst	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.map_subst_map	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_swap	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_compose	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_id_comm_l	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_id_comm_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_refl_map_distr	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_map_distr	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_sym_map_distr	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_distr	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_rew_distr	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_const	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.unique_existence	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.forall_exists_unique_domain_coincide	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.forall_exists_coincide_unique_domain	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.exists_inhabited	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.inhabited_covariant	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_stepl	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_stepl	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex.eq_ex_uncurried	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex.rew_ex	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex2.eq_ex2_uncurried	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex2.rew_ex2	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.identity_sym	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.identity_trans	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.identity_congr	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_ind_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_rec_r	60
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_rect_r	60
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj1	60	1.648161	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj2	60	0.228797	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_refl	60	0.768106	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_trans	60	0.264858	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_sym	60	0.260768	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_l	60	0.266399	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_r	60	0.267134	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_l	60	0.292799	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_r	60	0.272158	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_l	60	0.288465	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_r	60	0.280825	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	60	0.273929	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.neg_false	60	0.860955	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_l	60	0.277154	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_r	60	0.730296	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_comm	60	0.248570	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_assoc	60	0.244543	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_l	60	0.249558	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_r	60	0.244033	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_comm	60	0.243376	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_assoc	60	0.253526	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_and	60	0.258852	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_to_and	60	0.258022	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.universal_quantification.inst	60	0.333700	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.universal_quantification.gen	60	0.786976	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.absurd	60	0.831358	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_sym	60	0.376789	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_trans	60	0.377579	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.eq_trans_r	60	0.370649	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.f_equal	60	0.367561	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	60	0.383102	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_sind_r	60	0.637352	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_ind_r	60	0.584372	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_rec_r	60	0.149519	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.eq_rect_r	60	0.357016	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.equality_dep.f_equal_dep	60	0.399817	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.equality_dep2.f_equal_dep2	60	2.035599	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_opp_r	60	0.390437	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_opp_l	60	0.848902	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal2	60	0.690816	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal3	60	0.408609	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal4	60	0.275644	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal5	60	0.906176	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.f_equal_compose	60	0.898437	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_refl_l	60	0.454648	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_refl_r	60	0.480210	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_sym_involutive	60	0.486170	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_inv_l	60	0.490277	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_inv_r	60	0.483458	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_assoc	60	1.261452	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_map	60	0.519270	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_map	60	0.548469	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.map_subst	60	0.584431	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.map_subst_map	60	0.573734	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_swap	60	0.565975	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_compose	60	0.575842	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_id_comm_l	60	0.608699	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_id_comm_r	60	1.281948	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_refl_map_distr	60	1.566638	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_map_distr	60	0.715905	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_sym_map_distr	60	0.741252	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_sym_distr	60	0.759648	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_trans_rew_distr	60	0.761591	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.rew_const	60	0.771904	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.unique_existence	60	1.546648	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.forall_exists_unique_domain_coincide	60	0.830718	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.forall_exists_coincide_unique_domain	60	0.801206	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.exists_inhabited	60	0.805206	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.inhabited_covariant	60	0.820149	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.eq_stepl	60	0.797224	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.iff_stepl	60	1.706433	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex.eq_ex_uncurried	60	0.825284	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex.rew_ex	60	0.881283	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex2.eq_ex2_uncurried	60	0.957098	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.ex2.rew_ex2	60	1.526939	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.identity_sym	60	2.680981	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.identity_trans	60	1.160776	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.identity_congr	60	1.099475	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	60	1.097263	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_ind_r	60	2.271053	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_rec_r	60	1.133686	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_rect_r	60	0.889501	1	2
