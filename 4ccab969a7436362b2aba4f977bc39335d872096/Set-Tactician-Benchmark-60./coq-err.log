@@ -1,224 +1,389 @@
 File "./theories/Init/Logic.v", line 69, characters 4-24:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 74, characters 4-24:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 106, characters 4-16:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 111, characters 4-46:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 116, characters 4-36:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 128, characters 2-108:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 135, characters 2-108:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 142, characters 2-110:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 149, characters 2-110:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 156, characters 2-86:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Logic.v", line 162, characters 2-83:
 Warning:
 Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Connection reset by peer
 File "./theories/Init/Logic.v", line 168, characters 2-45:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 176, characters 2-29:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 184, characters 2-21:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 193, characters 2-21:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 201, characters 2-49:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 206, characters 2-81:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 212, characters 2-87:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 220, characters 2-87:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 227, characters 2-64:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 232, characters 2-55:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 242, characters 2-32:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 247, characters 2-85:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 329, characters 4-21:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 334, characters 4-14:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 379, characters 4-33:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 390, characters 6-26:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 397, characters 6-26:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 404, characters 6-26:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 409, characters 6-26:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 416, characters 6-56:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 424, characters 4-24:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 429, characters 4-24:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 436, characters 4-64:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 441, characters 4-64:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 475, characters 4-28:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 493, characters 4-18:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 500, characters 0-7:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 507, characters 0-7:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 516, characters 2-38:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 526, characters 2-50:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 534, characters 2-62:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 544, characters 2-74:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 550, characters 2-13:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 557, characters 2-13:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 562, characters 2-13:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 567, characters 2-26:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 572, characters 2-26:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 577, characters 2-26:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 583, characters 2-28:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 589, characters 2-26:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 596, characters 2-9:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 602, characters 2-13:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 608, characters 2-13:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 613, characters 2-13:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
 File "./theories/Init/Logic.v", line 619, characters 2-14:
 Warning:
-Benchmarking error: Error while communicating with proving server:
-Broken pipe
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 626, characters 2-9:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 636, characters 2-9:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 652, characters 2-14:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 657, characters 0-12:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 663, characters 0-11:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 669, characters 0-15:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 676, characters 2-30:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 682, characters 2-26:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 720, characters 2-20:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 733, characters 2-37:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 746, characters 2-15:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 770, characters 2-19:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 775, characters 2-38:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 782, characters 2-23:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 790, characters 2-48:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 810, characters 4-25:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 836, characters 4-31:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 850, characters 4-27:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic.v", line 886, characters 4-31:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic_Type.v", line 34, characters 2-22:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic_Type.v", line 39, characters 2-22:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic_Type.v", line 44, characters 2-22:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic_Type.v", line 49, characters 2-50:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic_Type.v", line 61, characters 1-64:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic_Type.v", line 66, characters 1-64:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Init/Logic_Type.v", line 71, characters 1-64:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
