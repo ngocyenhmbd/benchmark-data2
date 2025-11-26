@@ -1,17 +1,7 @@
-File "./theories/Lists/Streams.v", line 190, characters 0-11:
+File "./theories/Lists/Streams.v", line 102, characters 0-21:
 Warning:
 Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
-File "./theories/Lists/Streams.v", line 199, characters 0-11:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Lists/Streams.v", line 230, characters 0-12:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2223 (canonical: localhost)
-127.0.0.1:2223 (canonical: )
-File "./theories/Lists/Streams.v", line 241, characters 0-7:
+File "./theories/Lists/Streams.v", line 116, characters 0-35:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2223 (canonical: localhost)
