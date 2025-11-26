@@ -1,0 +1,19 @@
+2025-11-26 07:57:44.558043Z Error Rpc_parallel: (monitor.ml.Error
+  ("write to closed pipe"
+    (pipe
+      ((id 3) (buffer ()) (size_budget 0) (reserved_space 0)
+        (pushback (Full ())) (num_values_read 104) (blocked_flushes ())
+        (blocked_reads ()) (closed (Full ())) (read_closed (Full ()))
+        (consumers
+          (((pipe_id 3) (values_read Have_been_sent_downstream)
+             (downstream_flushed <fun>))))
+        (upstream_flusheds ()))))
+  ("Raised at Base__Error.raise in file \"src/error.ml\" (inlined), line 9, characters 14-30"
+    "Called from Base__Error.raise_s in file \"src/error.ml\", line 10, characters 19-40"
+    "Called from Async_kernel__Pipe.start_write in file \"src/pipe.ml\", line 517, characters 22-84"
+    "Called from Async_kernel__Pipe.write_without_pushback in file \"src/pipe.ml\", line 547, characters 2-23"
+    "Called from Async_kernel__Pipe.write in file \"src/pipe.ml\" (inlined), line 553, characters 2-32"
+    "Called from Dune__exe__Main.Cmd_worker.T.Functions.process_impl.(fun).loop.(fun) in file \"src/benchmark/main.ml\", line 213, characters 14-40"
+    "Called from Async_kernel__Deferred0.bind.(fun) in file \"src/deferred0.ml\", line 54, characters 64-69"
+    "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")) ... Shutting down.
+Abnormal exit code for command worker: job0 with prefix . Code: 254
