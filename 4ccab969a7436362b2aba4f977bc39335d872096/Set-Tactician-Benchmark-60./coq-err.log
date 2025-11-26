@@ -1,3 +1,311 @@
-File "./theories/Init/Logic.v", line 775, characters 2-38:
+File "./theories/Lists/Streams.v", line 69, characters 0-73:
 Warning:
-Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+Benchmarking error: Error while communicating with proving server:
+Connection reset by peer
+File "./theories/Lists/Streams.v", line 89, characters 0-24:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 94, characters 0-19:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 102, characters 0-21:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 116, characters 0-35:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 128, characters 0-19:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 152, characters 0-12:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 166, characters 0-31:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 181, characters 0-12:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 190, characters 0-11:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 199, characters 0-11:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 230, characters 0-12:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/Streams.v", line 241, characters 0-7:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/StreamMemo.v", line 36, characters 0-62:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/StreamMemo.v", line 62, characters 0-71:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/StreamMemo.v", line 120, characters 0-39:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/StreamMemo.v", line 149, characters 0-40:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 79, characters 4-25:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 87, characters 4-29:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 94, characters 9-31:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 102, characters 9-25:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 107, characters 4-44:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 114, characters 4-23:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 119, characters 4-31:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 132, characters 4-16:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 137, characters 4-16:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 143, characters 4-10:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 148, characters 4-46:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 153, characters 2-33:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 163, characters 4-44:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 186, characters 4-15:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 196, characters 4-16:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 201, characters 4-38:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 207, characters 9-35:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 213, characters 4-52:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 220, characters 5-26:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 228, characters 4-9:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 235, characters 4-64:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 244, characters 4-92:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 261, characters 4-108:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 264, characters 6-22:
+Warning:
+Tactician found a bug in it's tactical decomposition. Please report.
+intros a b [=]
+intros a;
+ (intros b;
+   (intros _tmp_tactician0; (first
+     [ discriminate _tmp_tactician0; idtac
+     | injection _tmp_tactician0 as; idtac
+     | intro_equality_clear _tmp_tactician0; idtac
+     | intro_equality_hnf _tmp_tactician0; idtac ])))
+
+File "./theories/Lists/List.v", line 281, characters 4-29:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 286, characters 4-17:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 298, characters 4-17:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 314, characters 4-43:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 320, characters 4-48:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 326, characters 4-35:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 379, characters 4-40:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 390, characters 4-16:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 409, characters 4-65:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 417, characters 4-46:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 427, characters 4-29:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 437, characters 4-49:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 445, characters 4-16:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 453, characters 4-16:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 461, characters 4-40:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 469, characters 4-13:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 480, characters 4-13:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 487, characters 4-29:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 497, characters 4-13:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
+File "./theories/Lists/List.v", line 506, characters 3-12:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2223 (canonical: localhost)
+127.0.0.1:2223 (canonical: )
