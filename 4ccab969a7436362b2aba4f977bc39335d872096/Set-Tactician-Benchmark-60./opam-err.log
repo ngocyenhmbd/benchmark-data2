@@ -1,0 +1,5 @@
+[ERROR] No config file found for switch bench. Switch broken?
+[NOTE] coq-tactician-stdlib is not installed.
+
+[WARNING] Failed checks on coq-tactician-api package definition from source at git+ssh://git@github.com/BlueRavenAI/coq-tactician-api#4ccab969a7436362b2aba4f977bc39335d872096:
+           warning 68: Missing field 'license'
