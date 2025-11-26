@@ -1,2 +1,2 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	60	0.333656	1	2	0	synth with cache (only 1: refine ((fun (v0 : @x <> @y) (v1 : @y = @x) => v0 (match v1 as v3 in (_ = v2) return (forall v4 : v2 <> @y, v2 = @y) with | eq_refl => fun v2 : @y <> @y => eq_refl end v0)) : forall v0 : @x <> @y, @y <> @x)).
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.inhabited_covariant	60	0.375718	2	3	0.0	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun (v0 v1 : Type) (v2 : forall v3 : v0, v1) (v3 : inhabited v0) => match v3 as v4 in (inhabited _) return (inhabited v1) with | inhabits v4 => (fun v4 : v0 => inhabits (v2 v4)) v4 end)).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	60	10.941032	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.inhabited_covariant	60
