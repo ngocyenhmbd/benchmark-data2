@@ -8,3 +8,23 @@ Fatal benchmarking error: (monitor.ml.Error
  ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 251, characters 17-26"
   "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"
   "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47"))
+Fatal benchmarking error: ("Process.run failed"
+ ((prog git)
+  (args
+   (commit -m
+    "benchmark data for git+ssh://git@github.com/BlueRavenAI/coq-tactician-api#4ccab969a7436362b2aba4f977bc39335d872096"))
+  (working_dir
+   ./benchmark-data2/4ccab969a7436362b2aba4f977bc39335d872096/Set-Tactician-Benchmark-60.)
+  (env (Override ((GIT_TERMINAL_PROMPT (0)))))
+  (exit_status (Exit_non_zero 1))
+  (stdout
+   ("On branch main" "Your branch is up to date with 'origin/main'." ""
+    "Changes not staged for commit:"
+    "  (use \"git add <file>...\" to update what will be committed)"
+    "  (use \"git restore <file>...\" to discard changes in working directory)"
+    "\tmodified:   ../../677f20ae9a955f88163d4d299799328af86ae415/Set-Tactician-Benchmark-60./error.log"
+    "\tmodified:   ../../f267afe31ab82b071d3f03d08bc4a6595c30b1d2/Set-Tactician-Benchmark-40./error.log"
+    ""
+    "no changes added to commit (use \"git add\" and/or \"git commit -a\")"
+    ""))
+  (stderr "")))
