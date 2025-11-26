@@ -1,98 +1,110 @@
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_true_false	30	13.070922	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_false_true	30	15.468819	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_false_abs	30	9.605297	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_is_false	30	7.874836	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_is_true	30	8.387541	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_iff_false	30	24.436633	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_iff_true	30	15.418721	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.leb_implb	30	15.030158	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_subst	30	23.853651	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_reflx	30	7.058538	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_prop	30	15.147686	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_true_iff	30	18.036940	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_false_iff	30	40.968494	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_orb	30	10.921126	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_andb	30	10.995865	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_involutive	30	18.584455	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_involutive_reverse	30	6.953685	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_sym	30	11.935539	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.no_fixpoint_negb	30	9.954782	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_negb1	30	14.757397	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_negb2	30	6.252861	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.if_negb	30	6.887217	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_true_iff	30	16.267383	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_false_iff	30	10.509670	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_iff	30	26.744354	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_iff	30	28.011920	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop	30	19.338435	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_intro	30	14.150796	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_intro	30	9.079339	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_elim	30	19.776376	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_diag	30	6.163809	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_r	30	6.129313	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_l	30	5.012248	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_r	30	12.292561	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_l	30	6.115243	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_negb_r	30	6.676430	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_comm	30	15.084138	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_assoc	30	15.923014	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_true_iff	30	25.149436	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_iff	30	25.453014	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_intro1	30	19.301759	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_intro2	30	12.684337	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_r	30	5.834311	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_l	30	10.222571	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => eq_refl)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_diag	30	5.723559	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_true_r	30	5.635434	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_true_l	30	4.698665	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => eq_refl)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_negb_r	30	11.630641	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_comm	30	7.680520	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_assoc	30	14.416531	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_orb_distrib_r	30	20.961276	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_orb_distrib_l	30	15.769852	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_andb_distrib_r	30	15.599408	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_andb_distrib_l	30	15.329672	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absorption_andb	30	13.485594	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absorption_orb	30	7.814296	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_false_r	30	5.714731	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_false_l	30	11.456618	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_true_r	30	4.961052	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => eq_refl)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_true_l	30	4.931617	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => eq_refl)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_nilpotent	30	5.951619	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_comm	30	13.705174	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_assoc_reverse	30	14.798850	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_eq	30	12.472450	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_l_r_1	30	26.031599	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_l_r_2	30	20.985613	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_r_l_1	30	21.521039	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_r_l_2	30	21.884841	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_xorb_l	30	13.947689	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_xorb_r	30	7.635188	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_negb_negb	30	7.408600	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_iff_eq_true	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_iff_eq	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_negb_classical	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_not_negb	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absurd_eq_bool	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absurd_eq_true	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.trans_eq_bool	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_true	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_left	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_right	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_refl	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_eq	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop_elim	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop_intro	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_prop_intro	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_prop_elim	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_bool_prop_intro	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_bool_prop_elim	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_elim	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_intro	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_classical	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_involutive	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_if	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_if	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_lazy_alt	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_lazy_alt	30
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.reflect_iff	30
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_true_false	30	13.262782	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_false_true	30	15.435249	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_false_abs	30	9.515121	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_is_false	30	8.057477	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_is_true	30	8.566561	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_iff_false	30	25.946088	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_iff_true	30	14.925936	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.leb_implb	30	14.557331	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_subst	30	24.599043	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_reflx	30	7.090916	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_prop	30	15.158970	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_true_iff	30	20.031832	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_false_iff	30	40.380815	0	1
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_orb	30	11.280771	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_andb	30	10.876899	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_involutive	30	18.630010	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_involutive_reverse	30	7.037421	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_sym	30	11.061494	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.no_fixpoint_negb	30	9.262696	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_negb1	30	12.826623	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_negb2	30	6.265229	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.if_negb	30	6.900935	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_true_iff	30	16.467031	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_false_iff	30	10.597300	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_iff	30	27.069073	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_iff	30	27.069038	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop	30	22.087432	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_intro	30	12.924419	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_intro	30	9.154205	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_elim	30	19.705759	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_diag	30	6.252483	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_r	30	6.031941	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_l	30	5.025847	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_r	30	12.719125	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_l	30	6.093965	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_negb_r	30	6.649125	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_comm	30	15.284417	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_assoc	30	15.692131	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_true_iff	30	24.593084	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_iff	30	26.143838	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_intro1	30	19.662250	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_intro2	30	12.317579	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_r	30	5.829905	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_l	30	10.277627	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => eq_refl)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_diag	30	5.724740	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_true_r	30	5.667847	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_true_l	30	4.707884	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => eq_refl)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_negb_r	30	11.336955	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_comm	30	7.656431	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_assoc	30	14.352049	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_orb_distrib_r	30	21.142809	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_orb_distrib_l	30	15.879447	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_andb_distrib_r	30	15.631557	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_andb_distrib_l	30	15.568096	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absorption_andb	30	13.985954	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absorption_orb	30	7.938195	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_false_r	30	5.756202	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_false_l	30	11.583600	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_true_r	30	5.002277	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => eq_refl)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_true_l	30	4.972219	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => eq_refl)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_nilpotent	30	5.935868	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_comm	30	13.496031	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_assoc_reverse	30	14.862462	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_eq	30	12.483686	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_l_r_1	30	26.405000	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_l_r_2	30	21.260154	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_r_l_1	30	21.768789	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_r_l_2	30	21.828080	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_xorb_l	30	13.610154	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_xorb_r	30	7.706141	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_negb_negb	30	7.424122	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_iff_eq_true	30	40.352567	0	1
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_iff_eq	30	11.241134	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_negb_classical	30	7.221974	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_not_negb	30	7.155484	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absurd_eq_bool	30	11.025603	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absurd_eq_true	30	5.108246	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.trans_eq_bool	30	4.931531	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_true	30	11.713856	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_left	30	6.923311	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_right	30	5.761044	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_refl	30	5.564563	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_eq	30	15.034206	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop_elim	30	9.818655	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop_intro	30	10.905611	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_prop_intro	30	17.421000	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_prop_elim	30	9.820730	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_bool_prop_intro	30	13.133393	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_bool_prop_elim	30	14.383367	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_elim	30	12.183124	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_intro	30	6.292135	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_classical	30	6.277668	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_involutive	30	11.970501	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_if	30	10.292990	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_if	30	6.706170	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_lazy_alt	30	5.601211	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_lazy_alt	30	10.795652	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.reflect_iff	30	9.666099	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_intro	30	28.980822	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_elim	30	29.521422	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_intro	30	25.547237	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_elim	30	24.606972	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.DecBool.ifdec_left	30	15.314896	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.DecBool.ifdec_right	30	7.824587	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iftrue_inv	30	8.109522	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iffalse_inv	30	6.946329	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_true	30	15.677160	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_false	30	9.000579	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_or	30	5.698124	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_sum	30	21.754670	1	2
