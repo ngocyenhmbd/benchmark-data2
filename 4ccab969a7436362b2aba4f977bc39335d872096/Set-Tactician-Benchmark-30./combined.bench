@@ -1,107 +1,16 @@
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.unfold_Stream	30	13.195266	1	2	0	synth with cache (only 1: refine (fun v0 : Lists.Streams.Stream (@A) => match v0 as v1 in (Lists.Streams.Stream _) return (v1 = match v1 as v2 in (Lists.Streams.Stream _) return (Lists.Streams.Stream (@A)) with | Cons v2 v3 => (fun (v2 : @A) (v3 : Lists.Streams.Stream (@A)) => Cons v2 v3) v2 v3 end) with | Cons v1 v2 => (fun (v1 : @A) (v2 : Lists.Streams.Stream (@A)) => eq_refl) v1 v2 end)).
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.tl_nth_tl	30	15.060946	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.Str_nth_tl_plus	30	40.668622	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.Str_nth_plus	30	34.677898	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.EqSt_reflex	30	7.229278	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.sym_EqSt	30	20.520113	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.trans_EqSt	30	25.846484	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.eqst_ntheq	30	25.327244	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.ntheq_eqst	30	11.084047	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.Stream_Properties.ForAll_Str_nth_tl	30	15.272660	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.Stream_Properties.Co_Induction_ForAll.ForAll_coind	30	9.761593	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Map.Str_nth_tl_map	30	16.311128	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Map.Str_nth_map	30	28.368180	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Map.ForAll_map	30	34.030757	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Zip.Str_nth_tl_zipWith	30	26.291761	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Zip.Str_nth_zipWith	30	46.211841	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.Equivalence_instance_0	30	69.402619	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_cons	30	35.184000	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_app_head	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_app	30	47.577813	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_app_tail	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_cons_append	30	16.865704	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_app_comm	30	21.818735	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_cons_app	30	16.954382	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_middle	30	14.060719	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_equivlistA	30	16.096399	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.NoDupA_equivlistA_PermutationA	30	21.706125	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.Permutation_eqlistA_commute	30	34.738853	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_decompose	30	23.960800	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.Permutation_PermutationA	30	16.114166	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.eqlistA_PermutationA	30	14.913334	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.NoDupA_equivlistA_decompose	30	27.881770	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidPermutation.Permutation.PermutationA_preserves_NoDupA	30	15.108596	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_altdef	30	43.265418	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_cons	30	38.701651	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_nil	30	22.415839	1	2	0	synth with cache (only 1: refine (fun v0 : @A => conj (fun v1 : InA v0 nil => let v2 : forall v3 : nil = nil, @False := match v1 as v4 in (InA _ v3) return (forall v5 : v3 = nil, @False) with | @InA_cons_hd _ v3 v4 v5 => (fun (v3 : @A) (v4 : list (@A)) (v5 : eqA v0 v3) (v6 : v3 :: v4 = nil) => (fun v7 : v3 :: v4 = nil => let v8 : @False := eq_ind (v3 :: v4) (fun v9 : list (@A) => match v9 as v10 in (list _) return Prop with | nil => @False | v10 :: v11 => (fun (v10 : @A) (v11 : list (@A)) => @normalization_done) v10 v11 end) (@did_normalization) nil v7 in False_ind (forall v9 : eqA v0 v3, @False) v8) v6 v5) v3 v4 v5 | @InA_cons_tl _ v3 v4 v5 => (fun (v3 : @A) (v4 : list (@A)) (v5 : InA v0 v4) (v6 : v3 :: v4 = nil) => (fun v7 : v3 :: v4 = nil => let v8 : @False := eq_ind (v3 :: v4) (fun v9 : list (@A) => match v9 as v10 in (list _) return Prop with | nil => @False | v10 :: v11 => (fun (v10 : @A) (v11 : list (@A)) => @normalization_done) v10 v11 end) (@did_normalization) nil v7 in False_ind (forall v9 : InA v0 v4, @False) v8) v6 v5) v3 v4 v5 end in v2 eq_refl) (fun v1 : @False => False_ind (InA v0 nil) v1))).
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_alt	30	40.454599	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.NoDupA_altdef	30	36.110813	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.incl_nil	30	17.349745	3	3	0.1	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun v0 : list (@A) => (fun (v1 : @A) (v2 : InA v1 nil) => let v3 : forall v4 : nil = nil, InA v1 v0 := match v2 as v5 in (InA _ v4) return (forall v6 : v4 = nil, InA v1 v0) with | @InA_cons_hd _ v4 v5 v6 => (fun (v4 : @A) (v5 : list (@A)) (v6 : eqA v1 v4) (v7 : v4 :: v5 = nil) => (fun v8 : v4 :: v5 = nil => let v9 : @False := eq_ind (v4 :: v5) (fun v10 : list (@A) => match v10 as v11 in (list _) return Prop with | nil => @False | v11 :: v12 => (fun (v11 : @A) (v12 : list (@A)) => @normalization_done) v11 v12 end) (@did_normalization) nil v8 in False_ind (forall v10 : eqA v1 v4, InA v1 v0) v9) v7 v6) v4 v5 v6 | @InA_cons_tl _ v4 v5 v6 => (fun (v4 : @A) (v5 : list (@A)) (v6 : InA v1 v5) (v7 : v4 :: v5 = nil) => (fun v8 : v4 :: v5 = nil => let v9 : @False := eq_ind (v4 :: v5) (fun v10 : list (@A) => match v10 as v11 in (list _) return Prop with | nil => @False | v11 :: v12 => (fun (v11 : @A) (v12 : list (@A)) => @normalization_done) v11 v12 end) (@did_normalization) nil v8 in False_ind (forall v10 : InA v1 v5, InA v1 v0) v9) v7 v6) v4 v5 v6 end in v3 eq_refl) : inclA nil v0)).
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.eqlistA_altdef	30	52.607987	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.equivlist_equiv	30	50.883165	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.eqlistA_equiv	30	64.600526	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.eqlistA_equivlistA	30	36.725399	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_compat	30	48.106456	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_eqA	30	42.412339	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.In_InA	30	44.788561	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_split	30	62.996390	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_app	30	46.898548	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_app_iff	30	42.800274	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_rev	30	50.107248	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_singleton	30	18.491414	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_double_head	30	14.778193	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_permute_heads	30	22.172667	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_app_idem	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.NoDupA.NoDupA_app	30	53.815609	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.NoDupA.NoDupA_rev	30	89.465677	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.NoDupA.NoDupA_split	30	49.597913	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.NoDupA.NoDupA_swap	30	64.829825	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.NoDupA.NoDupA_singleton	30	15.176981	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EquivlistA.equivlistA_cons_proper	30	40.034291	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EquivlistA.equivlistA_app_proper	30	45.101096	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EquivlistA.equivlistA_cons_nil	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EquivlistA.equivlistA_nil_eq	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EquivlistA.equivlistA_double_head	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EquivlistA.equivlistA_permute_heads	30	13.292620	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EquivlistA.equivlistA_app_idem	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EquivlistA.equivlistA_NoDupA_split	30	73.926894	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold.fold_right_eqlistA	30	34.755890	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold.Fold_With_Restriction.ForallOrdPairs_inclA	30	78.853281	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold.Fold_With_Restriction.fold_right_commutes_restr	30	47.984399	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold.Fold_With_Restriction.fold_right_equivlistA_restr	30	54.937414	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold.Fold_With_Restriction.fold_right_add_restr	30	36.446155	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold.fold_right_commutes	30	42.915265	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold.fold_right_equivlistA	30	37.100096	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold.fold_right_add	30	47.721468	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold2.fold_right_eqlistA2	30	60.964357	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold2.Fold2_With_Restriction.fold_right_commutes_restr2	30	43.344248	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold2.Fold2_With_Restriction.fold_right_equivlistA_restr2	30	58.285122	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold2.Fold2_With_Restriction.fold_right_add_restr2	30	43.986825	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold2.fold_right_commutes2	30	50.221764	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold2.fold_right_equivlistA2	30	33.708713	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Fold2.fold_right_add2	30	41.142325	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Remove.removeA_filter	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Remove.removeA_InA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Remove.removeA_NoDupA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Remove.removeA_equivlistA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InfA_ltA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InfA_compat	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InfA_eqA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.SortA_InfA_InA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.In_InfA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InA_InfA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InfA_alt	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.InfA_app	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.SortA_app	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.SortA_NoDupA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EqlistA.eqlistA_length	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EqlistA.app_eqlistA_compat	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EqlistA.eqlistA_app	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EqlistA.eqlistA_rev_app	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EqlistA.rev_eqlistA_compat	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EqlistA.eqlistA_rev	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.EqlistA.SortA_equivlistA_eqlistA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Filter.filter_sort	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Filter.filter_InA	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Type_with_equality.Filter.filter_split	30
-coq-tactician-stdlib.8.11.dev	Coq.Lists.SetoidList.Find.findA_NoDupA	30
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.unfold_Stream	30	2.390819	1	2	0	synth with cache (only 1: refine (fun v0 : Lists.Streams.Stream (@A) => match v0 as v1 in (Lists.Streams.Stream _) return (v1 = match v1 as v2 in (Lists.Streams.Stream _) return (Lists.Streams.Stream (@A)) with | Cons v2 v3 => (fun (v2 : @A) (v3 : Lists.Streams.Stream (@A)) => Cons v2 v3) v2 v3 end) with | Cons v1 v2 => (fun (v1 : @A) (v2 : Lists.Streams.Stream (@A)) => eq_refl) v1 v2 end)).
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.tl_nth_tl	30	4.865473	1	2	0	synth with cache (only 1: refine (fun v0 : @nat => nat_ind (fun v1 : @nat => forall v2 : Lists.Streams.Stream (@A), tl (Str_nth_tl v1 v2) = Str_nth_tl v1 (tl v2)) ((fun v1 : Lists.Streams.Stream (@A) => eq_refl) : forall v1 : Lists.Streams.Stream (@A), tl (Str_nth_tl 0 v1) = Str_nth_tl 0 (tl v1)) ((fun (v1 : @nat) (v2 : forall v3 : Lists.Streams.Stream (@A), tl (Str_nth_tl v1 v3) = Str_nth_tl v1 (tl v3)) (v3 : Lists.Streams.Stream (@A)) => v2 (tl v3)) : forall (v1 : @nat) (v2 : forall v3 : Lists.Streams.Stream (@A), tl (Str_nth_tl v1 v3) = Str_nth_tl v1 (tl v3)) (v3 : Lists.Streams.Stream (@A)), tl (Str_nth_tl (S v1) v3) = Str_nth_tl (S v1) (tl v3)) v0)).
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.Str_nth_tl_plus	30	57.895198	0	1
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.Str_nth_plus	30	37.348071	0	0
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.EqSt_reflex	30	2.897440	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.sym_EqSt	30	6.838544	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.trans_EqSt	30	11.737868	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.eqst_ntheq	30	13.382300	1	2	0	synth with cache (only 1: refine ((fun v0 : @nat => nat_ind (fun v1 : @nat => forall (v2 v3 : Lists.Streams.Stream (@A)) (v4 : EqSt v2 v3), hd (Str_nth_tl v1 v2) = hd (Str_nth_tl v1 v3)) (fun (v1 v2 : Lists.Streams.Stream (@A)) (v3 : EqSt v1 v2) => match v3 as v4 in (EqSt _ _) return (hd (Str_nth_tl 0 v1) = hd (Str_nth_tl 0 v2)) with | eqst _ _ v4 v5 => (fun (v4 : hd v1 = hd v2) (v5 : EqSt (tl v1) (tl v2)) => v4) v4 v5 end) (fun (v1 : @nat) (v2 : forall (v3 v4 : Lists.Streams.Stream (@A)) (v5 : EqSt v3 v4), hd (Str_nth_tl v1 v3) = hd (Str_nth_tl v1 v4)) => (fun (v3 v4 : Lists.Streams.Stream (@A)) (v5 : EqSt v3 v4) => v2 (tl v3) (tl v4) match v5 as v6 in (EqSt _ _) return (EqSt (tl v3) (tl v4)) with | eqst _ _ v6 v7 => (fun (v6 : hd v3 = hd v4) (v7 : EqSt (tl v3) (tl v4)) => v7) v6 v7 end) : forall (v3 v4 : Lists.Streams.Stream (@A)) (v5 : EqSt v3 v4), hd (Str_nth_tl (S v1) v3) = hd (Str_nth_tl (S v1) v4)) v0) : forall (v0 : @nat) (v1 v2 : Lists.Streams.Stream (@A)) (v3 : EqSt v1 v2), Str_nth v0 v1 = Str_nth v0 v2)).
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.ntheq_eqst	30	5.392026	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.Stream_Properties.ForAll_Str_nth_tl	30	4.791614	1	2	0	synth with cache (only 1: refine (fun v0 : @nat => nat_ind (fun v1 : @nat => forall (v2 : Lists.Streams.Stream (@A)) (v3 : ForAll v2), ForAll (Str_nth_tl v1 v2)) (fun (v1 : Lists.Streams.Stream (@A)) (v2 : ForAll v1) => v2) (fun (v1 : @nat) (v2 : forall (v3 : Lists.Streams.Stream (@A)) (v4 : ForAll v3), ForAll (Str_nth_tl v1 v3)) (v3 : Lists.Streams.Stream (@A)) (v4 : ForAll v3) => match v4 as v5 in (ForAll _) return (ForAll (Str_nth_tl (S v1) v3)) with | HereAndFurther v5 v6 => (fun (v5 : P v3) (v6 : ForAll (tl v3)) => v2 (tl v3) v6 : ForAll (Str_nth_tl (S v1) v3)) v5 v6 end) v0)).
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Streams.Stream_Properties.Co_Induction_ForAll.ForAll_coind	30	3.137603	4	3
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Map.Str_nth_tl_map	30	6.613956	1	2	0	synth with cache (only 1: refine (fun v0 : @nat => nat_ind (fun v1 : @nat => forall v2 : Stream (@A), Str_nth_tl v1 (map v2) = map (Str_nth_tl v1 v2)) (fun v1 : Stream (@A) => eq_refl) (fun (v1 : @nat) (v2 : forall v3 : Stream (@A), Str_nth_tl v1 (map v3) = map (Str_nth_tl v1 v3)) => (fun v3 : Stream (@A) => v2 (tl v3)) : forall v3 : Stream (@A), Str_nth_tl (S v1) (map v3) = map (Str_nth_tl (S v1) v3)) v0)).
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Map.Str_nth_map	30
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Map.ForAll_map	30
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Zip.Str_nth_tl_zipWith	30
+coq-tactician-stdlib.8.11.dev	Coq.Lists.Streams.Zip.Str_nth_zipWith	30
