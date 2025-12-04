@@ -1,7 +1,10 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.mult_n_Sm	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.max_l	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.max_r	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.min_l	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.min_r	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	120	9.357170	2641	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_r	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.not_eq_S	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.O_S	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.plus_n_Sm	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.nat_rect_succ_r	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.nat_rect_plus	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.andb_prop	120
