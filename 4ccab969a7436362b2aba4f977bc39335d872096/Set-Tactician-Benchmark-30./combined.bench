@@ -1,1 +1,1 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.pred_Sn	30
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.pred_Sn	30	2.296955	1	2	0	synth with cache (only 1: first [ refine ((fun v0 : @nat => eq_refl) : forall v0 : @nat, v0 = Nat.pred (S v0)) ]).
