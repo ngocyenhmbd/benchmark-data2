@@ -21,3 +21,10 @@ The following actions will be performed:
 
 <><> Processing actions <><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 ⬇ retrieved coq-tactician-stdlib.8.11.dev  (no changes)
+
+
+<><> Error report <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+┌─ The following actions failed
+│ λ build coq-tactician-stdlib 8.11.dev
+└─ 
+╶─ No changes have been performed
