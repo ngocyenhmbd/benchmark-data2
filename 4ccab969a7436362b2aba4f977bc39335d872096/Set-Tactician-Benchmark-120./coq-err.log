@@ -3,9 +3,7 @@ Warning:
 Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Datatypes.v", line 347, characters 2-46:
 Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
 File "./theories/Init/Peano.v", line 137, characters 2-46:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
