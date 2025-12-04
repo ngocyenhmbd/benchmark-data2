@@ -3,32 +3,3 @@
 [NOTE] Package coq-tactician-api is already pinned to git+ssh://git@github.com/BlueRavenAI/coq-tactician-api#4ccab969a7436362b2aba4f977bc39335d872096 (version 15.0+8.11).
 [WARNING] Failed checks on coq-tactician-api package definition from source at git+ssh://git@github.com/BlueRavenAI/coq-tactician-api#4ccab969a7436362b2aba4f977bc39335d872096:
            warning 68: Missing field 'license'
-[ERROR] The compilation of coq-tactician-stdlib.8.11.dev failed at "make -j7".
-
-#=== ERROR while compiling coq-tactician-stdlib.8.11.dev ======================#
-# context              2.2.1 | linux/x86_64 |  | https://coq.inria.fr/opam/extra-dev#2025-11-22 20:22
-# path                 ~/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev
-# command              ~/tmp/opam-root/bench/bin/tactician exec -- make -j7
-# exit-code            2
-# env-file             ~/tmp/opam-root/log/coq-tactician-stdlib-150470-322f5a.env
-# output-file          ~/tmp/opam-root/log/coq-tactician-stdlib-150470-322f5a.out
-### output ###
-# [...]
-# coqc theories/Structures/OrdersLists.v
-# File "./theories/Sets/Finite_sets_facts.v", line 45, characters 4-33:
-# Warning: Tactician's tactical decomposition crashed. Please report.
-# coqc theories/FSets/FMapWeakList.v
-# coqc theories/FSets/FMapList.v
-# coqc theories/FSets/FSetBridge.v
-# coqc theories/Sets/Image.v
-# coqc theories/Numbers/Integer/Binary/ZBinary.v
-# coqc plugins/setoid_ring/Ring_polynom.v
-# make: *** [Makefile:66: theories/MSets/MSetWeakList.vo] Segmentation fault (core dumped)
-# make: *** [theories/MSets/MSetWeakList.vo] Deleting file 'theories/MSets/MSetWeakList.glob'
-# make: *** Waiting for unfinished jobs....
-
-2025-12-04 07:59:58.742559Z Error Rpc_parallel: (monitor.ml.Error ("OpamStd.OpamSys.Exit(31)")
-  ("Raised at Base__Result.ok_exn in file \"src/result.ml\", line 251, characters 17-26"
-    "Called from Async_kernel__Deferred1.M.map.(fun) in file \"src/deferred1.ml\", line 17, characters 40-45"
-    "Called from Async_kernel__Job_queue.run_jobs in file \"src/job_queue.ml\", line 180, characters 6-47")) ... Shutting down.
-Abnormal exit code for build worker on host 902190b4a50c. Code: 254
