@@ -1,10 +1,10 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	120	9.898717	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_r	120	10.049774	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	4.822774	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.not_eq_S	120	4.814901	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.O_S	120	3.361354	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.plus_n_Sm	120	5.730851	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.nat_rect_succ_r	120	8.109624	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.nat_rect_plus	120	27.555530	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	120	5.630542	4	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.andb_prop	120	9.399315	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => match v0 as v1 in bool return (forall (v2 : @bool) (v3 : (v1 && v2)%bool = @true), v1 = @true /\ v2 = @true) with | true => fun v1 : @bool => match v1 as v2 in bool return (forall v3 : (@true && v2)%bool = @true, @true = @true /\ v2 = @true) with | true => fun v2 : (@true && @true)%bool = @true => conj eq_refl eq_refl | false => fun v2 : (@true && @false)%bool = @true => conj eq_refl v2 end | false => fun v1 : @bool => match v1 as v2 in bool return (forall v3 : (@false && v2)%bool = @true, @false = @true /\ v2 = @true) with | true => fun v2 : (@false && @true)%bool = @true => conj v2 eq_refl | false => fun v2 : (@false && @false)%bool = @true => conj v2 v2 end end)).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	120	7.663154	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_r	120	10.067804	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	4.957884	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.not_eq_S	120	4.699399	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.O_S	120	3.541406	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.plus_n_Sm	120	5.686302	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.nat_rect_succ_r	120	7.848848	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.nat_rect_plus	120	33.356296	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	120	5.825467	4	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.andb_prop	120	10.721687	2	2
