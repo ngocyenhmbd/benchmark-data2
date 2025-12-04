@@ -1,6 +1,6 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120	38.819498	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120	20.459884	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.mult_n_Sm	120	107.511881	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.mult_n_Sm	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.max_l	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.max_r	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.min_l	120
