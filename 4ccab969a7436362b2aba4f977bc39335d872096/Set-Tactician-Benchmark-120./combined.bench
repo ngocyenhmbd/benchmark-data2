@@ -1,7 +1,10 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.mult_n_Sm	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.max_l	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.max_r	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.min_l	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.min_r	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	120	9.322367	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_cancel_r	120	10.067872	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	4.759865	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.not_eq_S	120	5.209038	96	2	95	synth with cache (only 1: refine ((fun (v0 v1 : @nat) (v2 : v0 <> v1) (v3 : S v0 = S v1) => v2 (eq_add_S v0 v1 v3)) : forall (v0 v1 : @nat) (v2 : v0 <> v1), S v0 <> S v1)).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.O_S	120	3.915895	257	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.plus_n_Sm	120	120.454046	0	0
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.nat_rect_succ_r	120	120.945118	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.nat_rect_plus	120	27.888903	499	2	498	synth with cache (only 1: refine (fun v0 : @nat => nat_ind (fun v1 : @nat => forall (v2 : @nat) (v3 : Type) (v4 : forall v5 : v3, v3) (v5 : v3), nat_rect (fun v6 : @nat => v3) v5 (fun v6 : @nat => v4) (v1 + v2) = nat_rect (fun v6 : @nat => v3) (nat_rect (fun v6 : @nat => v3) v5 (fun v6 : @nat => v4) v2) (fun v6 : @nat => v4) v1) (fun (v1 : @nat) (v2 : Type) (v3 : forall v4 : v2, v2) (v4 : v2) => eq_refl : nat_rect (fun v5 : @nat => v2) v4 (fun v5 : @nat => v3) (0 + v1) = nat_rect (fun v5 : @nat => v2) (nat_rect (fun v5 : @nat => v2) v4 (fun v5 : @nat => v3) v1) (fun v5 : @nat => v3) 0) (fun (v1 : @nat) (v2 : forall (v3 : @nat) (v4 : Type) (v5 : forall v6 : v4, v4) (v6 : v4), nat_rect (fun v7 : @nat => v4) v6 (fun v7 : @nat => v5) (v1 + v3) = nat_rect (fun v7 : @nat => v4) (nat_rect (fun v7 : @nat => v4) v6 (fun v7 : @nat => v5) v3) (fun v7 : @nat => v5) v1) (v3 : @nat) (v4 : Type) (v5 : forall v6 : v4, v4) (v6 : v4) => eq_ind_r (fun v7 : v4 => v5 v7 = v5 (nat_rect (fun v8 : @nat => v4) (nat_rect (fun v8 : @nat => v4) v6 (fun v8 : @nat => v5) v3) (fun v8 : @nat => v5) v1)) eq_refl (v2 v3 v4 v5 v6) : nat_rect (fun v7 : @nat => v4) v6 (fun v7 : @nat => v5) (S v1 + v3) = nat_rect (fun v7 : @nat => v4) (nat_rect (fun v7 : @nat => v4) v6 (fun v7 : @nat => v5) v3) (fun v7 : @nat => v5) (S v1)) v0)).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	120	6.106644	1034	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.andb_prop	120	120.295347	0	0
