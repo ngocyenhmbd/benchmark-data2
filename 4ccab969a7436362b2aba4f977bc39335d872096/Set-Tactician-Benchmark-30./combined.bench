@@ -1,1 +1,17 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.pred_Sn	30	11.390570	1	2	0	synth with cache (only 1: first [ refine ((fun v0 : @nat => identity_refl v0) : forall v0 : @nat, v0 = Nat.pred (S v0)) | refine ((fun v0 : @nat => identity_refl v0) : forall v0 : @nat, v0 = Nat.pred (Decimal.D9 v0)) | refine ((fun v0 : @nat => eq_refl) : forall v0 : @nat, identity v0 (Nat.pred (S v0))) | refine ((fun v0 : @nat => eq_refl) : forall v0 : @nat, identity v0 (Nat.pred (Decimal.D9 v0))) | refine ((fun v0 : @nat => eq_refl) : forall v0 : @nat, v0 = Nat.pred (S v0)) | refine ((fun v0 : @nat => identity_refl v0) : forall v0 : @nat, identity v0 (Nat.pred (S v0))) | refine ((fun v0 : @nat => identity_refl v0) : forall v0 : @nat, identity v0 (Nat.pred (Decimal.D9 v0))) | refine ((fun v0 : @nat => eq_refl) : forall v0 : @nat, v0 = Nat.pred (Decimal.D9 v0)) ]).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj1	30	0.183027	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj2	30	0.182395	2	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_refl	30	0.104368	1	2	0	synth with cache (only 1: first [ refine (fun v0 : Prop => conj (fun v1 : v0 => v1) (fun v1 : v0 => v1)) ]).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_trans	30	0.448892	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_sym	30	0.197474	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_l	30	0.699030	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_r	30	0.771928	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_l	30	0.854557	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_r	30	0.873231	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_l	30	0.370017	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_r	30	0.286831	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	30	0.804155	1	2	0	synth with cache (only 1: first [ refine (fun (v0 v1 : Prop) (v2 : v0 <-> v1) => imp_iff_compat_r (@False) v2) ]).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.neg_false	30	0.440989	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_l	30	11.196215	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_r	30	11.342782	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_comm	30	0.294165	1	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_assoc	30	5.999956	1	2
