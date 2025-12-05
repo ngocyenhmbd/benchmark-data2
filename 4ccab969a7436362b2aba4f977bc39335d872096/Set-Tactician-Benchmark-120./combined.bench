@@ -1,7 +1,7 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	0.293533	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.exists_to_inhabited_sig	120	0.540314	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.inhabited_sig_to_exists	120	0.559271	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	120	0.657529	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120	2.408911	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_involutive	120	0.600265	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120	2.683371	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	0.288274	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.exists_to_inhabited_sig	120	0.541446	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.inhabited_sig_to_exists	120	0.560253	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	120	0.575014	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120	2.115425	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_involutive	120	0.612821	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120	2.665099	2	2
