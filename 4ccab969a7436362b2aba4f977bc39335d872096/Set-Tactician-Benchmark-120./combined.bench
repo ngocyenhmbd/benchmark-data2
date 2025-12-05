@@ -1,7 +1,4 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	3.562464	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.exists_to_inhabited_sig	120	0.763258	4	3	2.0	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun (v0 : Type) (v1 : forall v2 : v0, Prop) (v2 : exists v3 : v0, v1 v3) => match v2 as v3 in (ex _) return (inhabited {v4 : v0 | v1 v4}) with | ex_intro _ v3 v4 => (fun (v3 : v0) (v4 : v1 v3) => inhabits (exist (fun v5 : v0 => v1 v5) v3 v4)) v3 v4 end)).
-coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.inhabited_sig_to_exists	120	0.654222	5	3	3.0	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun (v0 : Type) (v1 : forall v2 : v0, Prop) (v2 : inhabited {v3 : v0 | v1 v3}) => match v2 as v3 in (inhabited _) return (exists v4 : v0, v1 v4) with | inhabits v3 => (fun v3 : {v4 : v0 | v1 v4} => match v3 as v4 in (sig _) return (exists v5 : v0, v1 v5) with | exist _ v4 v5 => (fun (v4 : v0) (v5 : v1 v4) => ex_intro (fun v6 : v0 => v1 v6) v4 v5) v4 v5 end) v3 end)).
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	120	3.688432	1026	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	3.356054	3	3
 coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_involutive	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120
