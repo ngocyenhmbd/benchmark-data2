@@ -1,15 +1,47 @@
-File "./theories/Arith/PeanoNat.v", line 287, characters 1-35:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros ([| ], H); try discriminate
-intros _tmp_tactician0;
- (destruct _tmp_tactician0 as (_tmp_tactician2, H);
-   [ .. | destruct _tmp_tactician2 as [| ]; [ .. | idtac | idtac ] ]);
- try discriminate
-
-File "./theories/Arith/PeanoNat.v", line 318, characters 1-17:
+File "./theories/Arith/PeanoNat.v", line 52, characters 0-20:
 Warning:
 Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
-File "./theories/Arith/PeanoNat.v", line 327, characters 1-12:
+File "./theories/Arith/PeanoNat.v", line 63, characters 0-31:
 Warning:
 Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Arith/PeanoNat.v", line 70, characters 0-12:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Arith/PeanoNat.v", line 78, characters 0-57:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Arith/PeanoNat.v", line 94, characters 0-12:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Arith/PeanoNat.v", line 99, characters 0-12:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./theories/Arith/PeanoNat.v", line 104, characters 0-12:
+Warning:
+Benchmarking error: Error while communicating with proving server:
+Connection reset by peer
+File "./theories/Arith/PeanoNat.v", line 109, characters 0-12:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Arith/PeanoNat.v", line 114, characters 0-12:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Arith/PeanoNat.v", line 119, characters 0-12:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Arith/PeanoNat.v", line 124, characters 0-15:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Arith/PeanoNat.v", line 129, characters 0-9:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
