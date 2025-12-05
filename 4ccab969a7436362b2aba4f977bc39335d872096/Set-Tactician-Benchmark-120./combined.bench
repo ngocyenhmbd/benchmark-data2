@@ -1,4 +1,4 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	3.671905	3	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_involutive	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120	0.364255	3	3
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120	5.249403	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_involutive	120	0.675087	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120	3.921430	2	2
