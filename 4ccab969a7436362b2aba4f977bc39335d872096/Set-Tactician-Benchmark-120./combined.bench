@@ -1,4 +1,0 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Logic_lemmas.equality.not_eq_sym	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.comparison_eq_stable	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_involutive	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_inj	120
