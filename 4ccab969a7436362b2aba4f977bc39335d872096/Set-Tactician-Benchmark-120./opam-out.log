@@ -8,3 +8,16 @@ Removed '["tactician" "exec" "--"] {coq-tactician:installed}' from field wrap-in
 Added '["tactician" "exec" "--"] {coq-tactician:installed}' to field wrap-install-commands in switch bench
 Removed '["%{coq-tactician:lib}%/tactician-patch" name version] {coq-tactician:installed}' from field pre-build-commands in switch bench
 Added '["%{coq-tactician:lib}%/tactician-patch" name version] {coq-tactician:installed}' to field pre-build-commands in switch bench
+The following actions will be performed:
+=== install 1 package
+  ∗ coq-tactician-stdlib 8.11.dev  *** WARNING ***
+                                   This package will overwrite Coq's standard library files.
+                                   A backup of the original files will be placed under Coq's
+                                   library directory at user-contrib/tactician-stdlib-backup/
+                                   and they will be restored when you remove this package.
+                                   After installation of this package, all other Coq packages
+                                   also need to be recompiled. Running the 'tactician recompile'
+                                   command-line utility will help with this process.
+
+<><> Processing actions <><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+⬇ retrieved coq-tactician-stdlib.8.11.dev  (no changes)
