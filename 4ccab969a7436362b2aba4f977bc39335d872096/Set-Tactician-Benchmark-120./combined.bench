@@ -1,15 +1,15 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj1	120	0.505473	2	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj2	120	0.179916	2	3
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_refl	120	0.101339	1	2	0	synth with cache (only 1: refine (fun v0 : Prop => conj (fun v1 : v0 => v1) (fun v1 : v0 => v1))).
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_trans	120	0.418710	1	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_sym	120	0.186327	1	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_l	120	0.418650	1	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_r	120	0.460493	1	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_l	120	0.732175	1	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_r	120	0.594877	1	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_l	120	0.349597	1	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_r	120	0.334525	1	2
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	120	0.563437	1	2	0	synth with cache (only 1: refine (fun (v0 v1 : Prop) (v2 : v0 <-> v1) => imp_iff_compat_r (@False) v2)).
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj1	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Conjunction.proj2	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_refl	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_trans	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.Equivalence.iff_sym	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_l	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_iff_compat_r	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_l	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.or_iff_compat_r	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_l	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.imp_iff_compat_r	120
+coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.not_iff_compat	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.neg_false	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_l	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Logic.and_cancel_r	120
@@ -67,10 +67,3 @@ coq-tactician-stdlib.8.11.dev	Coq.Init.Specif.inhabited_sig_to_exists	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Wf.Well_founded.FixPoint.Fix_F_eq	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Wf.Well_founded.FixPoint.Fix_F_inv	120
 coq-tactician-stdlib.8.11.dev	Coq.Init.Wf.Well_founded.FixPoint.Fix_eq	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Logic_Type.identity_is_a_congruence.not_identity_sym	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.andb_prop	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.surjective_pairing	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.injective_projections	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.pair_equal_spec	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_involutive	120
-coq-tactician-stdlib.8.11.dev	Coq.Init.Datatypes.CompOpp_iff	120

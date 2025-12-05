@@ -1,3 +1,63 @@
+File "./theories/Init/Logic.v", line 69, characters 4-24:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 74, characters 4-24:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 106, characters 4-16:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 111, characters 4-46:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 116, characters 4-36:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 128, characters 2-108:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 135, characters 2-108:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 142, characters 2-110:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 149, characters 2-110:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 156, characters 2-86:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 162, characters 2-83:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Init/Logic.v", line 168, characters 2-45:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
 File "./theories/Init/Logic.v", line 176, characters 2-29:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
@@ -282,41 +342,6 @@ Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
 127.0.0.1:2224 (canonical: )
 File "./theories/Init/Wf.v", line 110, characters 3-23:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Init/Logic_Type.v", line 49, characters 2-50:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Init/Datatypes.v", line 78, characters 2-42:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Init/Datatypes.v", line 235, characters 2-26:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Init/Datatypes.v", line 242, characters 2-52:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Init/Datatypes.v", line 250, characters 2-16:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Init/Datatypes.v", line 342, characters 2-26:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Init/Datatypes.v", line 352, characters 2-69:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
