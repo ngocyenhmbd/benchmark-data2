@@ -1,12 +1,12 @@
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.bi_induction	180	24.796621	65	2
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.recursion_wd	180	24.706128	130	3
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.recursion_0	180	6.059777	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.recursion_succ	180	16.161672	65	2
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.pred_succ	180	7.893488	66	3	0.64	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun v0 : @nat => eq_refl)).
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.pred_0	180	5.413525	3	2
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.one_succ	180	6.721405	3	2
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.two_succ	180	5.991074	3	2
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.add_0_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.bi_induction	180	21.677433	129	2
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.recursion_wd	180	54.041788	2050	3
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.recursion_0	180	5.458739	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.recursion_succ	180	42.199074	1025	2
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.pred_succ	180	11.141835	1027	3	1.1024	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun v0 : @nat => eq_refl)).
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.pred_0	180	5.881841	3	2
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.one_succ	180	6.739815	3	2
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.two_succ	180	6.327305	3	2
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.add_0_l	180	14.016402	1028	3
 coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.add_succ_l	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.sub_0_r	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.sub_succ_r	180
@@ -152,6 +152,25 @@ coq-tactician-stdlib.8.11.dev	Coq.Arith.Div2.double_plus	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Div2.even_odd_double	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Div2.div2_double	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Div2.div2_double_plus_one	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_assoc_reverse	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_reg_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_reg_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_lt_reg_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_compat_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_compat_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_lt_compat_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_lt_compat_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_compat	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_lt_compat	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_lt_le_compat	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_lt_compat	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.le_plus_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.le_plus_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.le_plus_trans	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.lt_plus_trans	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_is_O	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_tail_plus	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.succ_plus_discr	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Peano_dec.le_unique	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Minus.minus_n_O	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Minus.minus_Sn_m	180
@@ -164,12 +183,74 @@ coq-tactician-stdlib.8.11.dev	Coq.Arith.Minus.le_plus_minus_r	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Minus.le_plus_minus	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Minus.lt_O_minus_lt	180
 coq-tactician-stdlib.8.11.dev	Coq.Arith.Minus.not_le_minus_0	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_assoc_reverse	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_reg_l	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_reg_l	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_lt_reg_l	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_compat_l	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_compat_r	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_lt_compat_l	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_lt_compat_r	180
-coq-tactician-stdlib.8.11.dev	Coq.Arith.Plus.plus_le_compat	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.bet_eq	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.between_le	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.between_Sk_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.between_restr	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.exists_le_S	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.exists_S_le	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.in_int_intro	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.in_int_lt	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.in_int_p_Sq	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.in_int_S	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.in_int_Sp_q	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.between_in_int	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.in_int_between	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.exists_in_int	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.in_int_exists	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.between_or_exists	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.between_not_exists	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.nth_le	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Between.Between.event_O	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_equiv	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_equiv	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_or_odd	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.not_even_and_odd	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_plus_split	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_plus_split	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_even_plus	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_plus_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_plus_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_even_plus	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_plus_aux	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_plus_even_inv_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_plus_even_inv_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_plus_odd_inv_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_plus_odd_inv_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_plus_even_inv_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_plus_even_inv_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_plus_odd_inv_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_plus_odd_inv_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_mult_aux	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_mult_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_mult_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_mult_inv_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.even_mult_inv_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_mult	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_mult_inv_l	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Even.odd_mult_inv_r	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.lt_le_S	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.lt_n_Sm_le	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.le_lt_n_Sm	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.le_not_lt	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.lt_not_le	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.neq_0_lt	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.lt_0_neq	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.lt_n_S	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.lt_S_n	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.S_pred	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.S_pred_pos	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.lt_pred	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.lt_pred_n_n	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.le_lt_or_eq	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Lt.nat_total_order	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.EqNat.eq_nat_refl	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.EqNat.eq_nat_is_eq	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.EqNat.eq_eq_nat	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.EqNat.eq_nat_eq	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.EqNat.eq_nat_elim	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.EqNat.beq_nat_refl	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.EqNat.beq_nat_true	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.EqNat.beq_nat_false	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Le.le_n_0_eq	180
+coq-tactician-stdlib.8.11.dev	Coq.Arith.Le.le_elim_rel	180
