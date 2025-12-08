@@ -1,1 +1,1 @@
-coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.add_0_l	180	17.447895	4	3
+coq-tactician-stdlib.8.11.dev	Coq.Arith.PeanoNat.Nat.add_0_l	180	3.242753	2	3	0.0	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun v0 : @nat => eq_refl)).
