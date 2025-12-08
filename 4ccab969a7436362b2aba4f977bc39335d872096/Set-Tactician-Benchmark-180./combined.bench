@@ -1,5 +1,4 @@
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_assoc_reverse	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_eq	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_eq	180	29.911450	1025	2
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_l_r_1	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_l_r_2	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_move_r_l_1	180
@@ -42,3 +41,7 @@ coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_or	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_sum	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.DecBool.ifdec_left	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.DecBool.ifdec_right	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_intro	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_elim	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_intro	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_elim	180
