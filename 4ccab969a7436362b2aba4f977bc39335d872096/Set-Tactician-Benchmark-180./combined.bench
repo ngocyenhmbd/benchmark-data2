@@ -1,42 +1,16 @@
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_xorb_l	180	22.760442	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_xorb_r	180	12.210106	210	2	209	synth with cache (only 1: refine (fun v0 : @bool => match v0 as v1 in bool return (forall v2 : @bool, negb (xorb v1 v2) = xorb v1 (negb v2)) with | true => fun v1 : @bool => match v1 as v2 in bool return (negb (xorb (@true) v2) = xorb (@true) (negb v2)) with | true => eq_refl | false => eq_refl end | false => fun v1 : @bool => match v1 as v2 in bool return (negb (xorb (@false) v2) = xorb (@false) (negb v2)) with | true => eq_refl | false => eq_refl end end)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.xorb_negb_negb	180	16.611423	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_iff_eq_true	180	82.950868	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_iff_eq	180	13.660883	1	2	0	synth with cache (only 1: refine (let v0 : forall (v1 v2 : @bool) (v3 : v1 = @true <-> v2 = @true), v1 = v2 := fun v1 v2 : @bool => match eq_iff_eq_true v1 v2 as v3 in (_ /\ _) return (forall v4 : v1 = @true <-> v2 = @true, v1 = v2) with | conj v3 v4 => (fun (v3 : forall v4 : v1 = v2, v1 = @true <-> v2 = @true) (v4 : forall v5 : v1 = @true <-> v2 = @true, v1 = v2) => v4) v3 v4 end in v0)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_negb_classical	180	13.172326	6	2	5	synth with cache (only 1: refine (fun (v0 : @bool) (v1 : negb v0 <> @true) => match v0 as v2 in bool return (forall v3 : negb v2 <> @true, v2 = @true) with | true => fun v2 : negb (@true) <> @true => eq_refl : @true = @true | false => fun v2 : negb (@false) <> @true => (let v3 : @False := let v4 : @true = @true := eq_refl in v2 v4 in (fun v4 : @False => False_ind (@false = @true) v4) v3) : @false = @true end v1)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_not_negb	180	12.344952	11	2	10	synth with cache (only 1: refine (fun (v0 : @bool) (v1 : v0 <> @true) => match v0 as v2 in bool return (forall v3 : v2 <> @true, negb v2 = @true) with | true => fun v2 : @true <> @true => (let v3 : @False := let v4 : @true = @true := eq_refl in v2 v4 in (fun v4 : @False => False_ind (@false = @true) v4) v3) : negb (@true) = @true | false => fun v2 : @false <> @true => eq_refl : negb (@false) = @true end v1)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absurd_eq_bool	180	11.345065	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.absurd_eq_true	180	10.496647	3	2	2	synth with cache (only 1: refine (fun (v0 : @bool) (v1 : @False) => False_ind (v0 = @true) v1)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.trans_eq_bool	180	10.190210	1	2	0	synth with cache (only 1: refine (eq_trans (A:=@bool))).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_true	180	10.930384	6	2	5	synth with cache (only 1: refine (fun (v0 : @bool) (v1 : Is_true v0) => match v0 as v2 in bool return (forall v3 : Is_true v2, v2 = @true) with | true => fun v2 : Is_true (@true) => eq_refl : @true = @true | false => fun v2 : Is_true (@false) => False_ind (@false = @true) v2 : @false = @true end v1)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_left	180	11.059127	4	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.Is_true_eq_right	180	10.002859	4	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_refl	180	11.448789	16	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_eq	180	21.824829	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop_elim	180	19.785409	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop_intro	180	18.724407	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_prop_intro	180	20.948073	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_prop_elim	180	20.129356	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_bool_prop_intro	180	25.014200	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_bool_prop_elim	180	25.628653	1025	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_elim	180	10.221522	4	2	3	synth with cache (only 1: refine (fun (v0 : @bool) (v1 : Is_true (negb v0)) => match v0 as v2 in bool return (forall v3 : Is_true (negb v2), ~ Is_true v2) with | true => fun v2 : Is_true (negb (@true)) => ((fun v3 : @True => False_ind (@False) v2) : ~ @True) : ~ Is_true (@true) | false => fun v2 : Is_true (negb (@false)) => ((fun v3 : @False => False_ind (@False) v3) : ~ @False) : ~ Is_true (@false) end v1)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_intro	180	10.890674	16	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_classical	180	9.957109	16	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_prop_involutive	180	9.798253	4	2	3	synth with cache (only 1: refine (fun (v0 : @bool) (v1 : Is_true v0) => match v0 as v2 in bool return (forall v3 : Is_true v2, ~ Is_true (negb v2)) with | true => fun v2 : Is_true (@true) => ((fun v3 : @False => False_ind (@False) v3) : ~ @False) : ~ Is_true (negb (@true)) | false => fun v2 : Is_true (@false) => ((fun v3 : @True => False_ind (@False) v2) : ~ @True) : ~ Is_true (negb (@false)) end v1)).
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_if	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_if	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_lazy_alt	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_lazy_alt	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.reflect_iff	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_intro	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_elim	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_intro	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_elim	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.DecBool.ifdec_left	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.DecBool.ifdec_right	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iftrue_inv	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iffalse_inv	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_true	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_false	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_or	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_sum	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_if	180	20.516216	1025	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_lazy_alt	180	9.518420	1	2	0	synth with cache (only 1: refine (fun v0 v1 : @bool => eq_refl)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_lazy_alt	180	9.790834	13	2	12	synth with cache (only 1: refine (fun v0 v1 : @bool => eq_refl)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.reflect_iff	180	13.569043	10	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.DecBool.ifdec_left	180	13.113590	2	2	1	synth with cache (only 1: refine (fun (v0 v1 : Prop) (v2 : Set) (v3 : {v0} + {v1}) (v4 : ~ v1) (v5 v6 : v2) => match v3 as v7 in ({_} + {_}) return (ifdec v7 v5 v6 = v5) with | left v7 => (fun v7 : v0 => eq_refl) v7 | right v7 => (fun v7 : v1 => False_ind (ifdec (right v7) v5 v6 = v5) (v4 v7)) v7 end)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.DecBool.ifdec_right	180	11.577423	2	2	1	synth with cache (only 1: refine (fun (v0 v1 : Prop) (v2 : Set) (v3 : {v0} + {v1}) (v4 : ~ v0) (v5 v6 : v2) => match v3 as v7 in ({_} + {_}) return (ifdec v7 v5 v6 = v6) with | left v7 => (fun v7 : v0 => False_ind (ifdec (left v7) v5 v6 = v6) (v4 v7)) v7 | right v7 => (fun v7 : v1 => eq_refl) v7 end)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iftrue_inv	180	11.446655	1	2	0	synth with cache (only 1: refine (fun (v0 v1 : Prop) (v2 : @bool) (v3 : IfProp v0 v1 v2) => match v3 as v5 in (IfProp _ _ v4) return (forall v6 : v4 = @true, v0) with | Iftrue _ _ v4 => (fun (v4 : v0) (v5 : @true = @true) => v4) v4 | Iffalse _ _ v4 => (fun (v4 : v1) (v5 : @false = @true) => match diff_true_false (eq_sym v5) as v6 in False return v0 with end) v4 end)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iffalse_inv	180	11.306940	4	2	3	synth with cache (only 1: refine (fun (v0 v1 : Prop) (v2 : @bool) (v3 : IfProp v0 v1 v2) => match v3 as v5 in (IfProp _ _ v4) return (forall v6 : v4 = @false, v1) with | Iftrue _ _ v4 => (fun (v4 : v0) (v5 : @true = @false) => match diff_true_false v5 as v6 in False return v1 with end) v4 | Iffalse _ _ v4 => (fun (v4 : v1) (v5 : @false = @false) => v4) v4 end)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_true	180	11.837324	4	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_false	180	13.799849	6	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_or	180	10.422208	3	2	2	synth with cache (only 1: refine (fun (v0 v1 : Prop) (v2 : @bool) (v3 : IfProp v0 v1 v2) => match v3 as v5 in (IfProp _ _ v4) return (v0 \/ v1) with | Iftrue _ _ v4 => (fun v4 : v0 => or_introl v4) v4 | Iffalse _ _ v4 => (fun v4 : v1 => or_intror v4) v4 end)).
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_sum	180	17.137887	16	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_intro	180	47.402415	17	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_elim	180	43.751750	5	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_intro	180	44.841035	1025	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_elim	180	46.983480	15	2
