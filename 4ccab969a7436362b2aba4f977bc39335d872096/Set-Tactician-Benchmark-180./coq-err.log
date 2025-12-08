@@ -1,9 +1,0 @@
-File "./theories/Arith/PeanoNat.v", line 287, characters 1-35:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros ([| ], H); try discriminate
-intros _tmp_tactician0;
- (destruct _tmp_tactician0 as (_tmp_tactician2, H);
-   [ .. | destruct _tmp_tactician2 as [| ]; [ .. | idtac | idtac ] ]);
- try discriminate
-
