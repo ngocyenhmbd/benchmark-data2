@@ -1,40 +1,40 @@
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_true_false	180	16.183844	4	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_false_true	180	9.119438	4	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_false_abs	180	12.228667	2	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_is_false	180	11.711888	28	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_is_true	180	12.048414	28	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_iff_false	180	18.869263	31	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_iff_true	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.leb_implb	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_subst	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_reflx	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_prop	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_true_iff	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_false_iff	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_orb	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_andb	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_involutive	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_involutive_reverse	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_sym	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.no_fixpoint_negb	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_negb1	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_negb2	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.if_negb	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_true_iff	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_false_iff	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_iff	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_iff	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_intro	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_intro	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_elim	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_diag	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_r	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_l	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_r	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_l	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_negb_r	180
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_comm	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_true_false	180	16.770834	4	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_false_true	180	9.538125	4	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_false_abs	180	13.610765	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_is_false	180	12.449082	28	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_is_true	180	12.018504	28	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_iff_false	180	20.291104	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_iff_true	180	17.918432	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.leb_implb	180	19.357807	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_subst	180	25.491399	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_reflx	180	10.291813	28	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_prop	180	22.088186	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_true_iff	180	24.795317	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_false_iff	180	38.623171	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_orb	180	16.185850	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_andb	180	14.128916	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_involutive	180	9.965933	10	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_involutive_reverse	180	9.164123	10	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_sym	180	14.356105	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.no_fixpoint_negb	180	13.271363	10	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_negb1	180	9.961013	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_negb2	180	10.774115	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.if_negb	180	10.954276	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_true_iff	180	12.924244	28	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_false_iff	180	14.584979	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_iff	180	32.368553	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_iff	180	30.641274	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_prop	180	17.548231	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_intro	180	18.480058	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_intro	180	11.968062	4	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_elim	180	16.509597	2	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_diag	180	9.339363	10	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_r	180	9.985064	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_true_l	180	8.379206	6	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_r	180	9.353757	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_false_l	180	10.105348	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_negb_r	180	9.740031	31	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_comm	180	12.745968	31	2
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_assoc	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_true_iff	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_false_iff	180
@@ -96,6 +96,10 @@ coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.negb_if	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.andb_lazy_alt	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.orb_lazy_alt	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.reflect_iff	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_intro	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_true_elim	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_intro	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_elim	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iftrue_inv	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iffalse_inv	180
 coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.IfProp_true	180
