@@ -176,36 +176,6 @@ Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
 127.0.0.1:2224 (canonical: )
-File "./theories/Bool/Zerob.v", line 24, characters 2-50:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Bool/Zerob.v", line 30, characters 2-50:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Bool/Zerob.v", line 35, characters 2-65:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Bool/Zerob.v", line 41, characters 2-47:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Bool/DecBool.v", line 21, characters 2-23:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/Bool/DecBool.v", line 29, characters 2-23:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
 File "./theories/Bool/IfProp.v", line 20, characters 0-35:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
@@ -232,6 +202,16 @@ Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
 127.0.0.1:2224 (canonical: )
 File "./theories/Bool/IfProp.v", line 47, characters 0-20:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Bool/DecBool.v", line 21, characters 2-23:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Bool/DecBool.v", line 29, characters 2-23:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
