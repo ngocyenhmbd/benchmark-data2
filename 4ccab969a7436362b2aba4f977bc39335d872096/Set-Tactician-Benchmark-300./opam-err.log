@@ -9,3 +9,4 @@
 [NOTE] It seems you have not updated your repositories for a while. Consider updating them with:
        opam update
 
+[NOTE] Package coq-tactician-stdlib is already installed (current version is 8.11.dev).
