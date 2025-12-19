@@ -1,1 +1,1 @@
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iffalse_inv	30
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iffalse_inv	30	3.826080	1	2	0	synth with cache (only 1: refine (fun (v0 v1 : Prop) (v2 : @bool) (v3 : IfProp v0 v1 v2) => match v3 as v5 in (IfProp _ _ v4) return (forall v6 : v4 = @false, v1) with | Iftrue _ _ v4 => (fun (v4 : v0) (v5 : @true = @false) => match diff_true_false v5 as v6 in False return v1 with end) v4 | Iffalse _ _ v4 => (fun (v4 : v1) (v5 : @false = @false) => v4) v4 end)).
