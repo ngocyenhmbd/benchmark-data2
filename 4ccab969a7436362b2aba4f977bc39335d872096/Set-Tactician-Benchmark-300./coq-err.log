@@ -1,5 +1,0 @@
-File "./theories/Bool/Bool.v", line 42, characters 2-15:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
