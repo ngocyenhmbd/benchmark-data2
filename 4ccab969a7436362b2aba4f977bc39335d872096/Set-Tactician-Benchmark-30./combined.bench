@@ -1,3 +1,1 @@
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iftrue_inv	30	3.607788	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iffalse_inv	30	2.711690	0	1
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Zerob.zerob_false_intro	30	8.854020	0	1
+coq-tactician-stdlib.8.11.dev	Coq.Bool.IfProp.Iffalse_inv	30	3.427173	0	1
