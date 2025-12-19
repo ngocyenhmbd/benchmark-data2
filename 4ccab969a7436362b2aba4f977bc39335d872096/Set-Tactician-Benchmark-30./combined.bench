@@ -1,9 +1,9 @@
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_true_false	30	16.336341	61	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_false_true	30	9.744652	61	2
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_false_abs	30	32.048586	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_is_false	30	32.536419	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_is_true	30	32.219028	0	0
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_iff_false	30	65.259076	0	0
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_true_false	30	17.176948	61	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_false_true	30	10.462139	61	2
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eq_true_false_abs	30	32.142244	0	0
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_is_false	30	32.262674	0	0
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_is_true	30	32.247953	0	0
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_true_iff_false	30	67.061716	0	0
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.not_false_iff_true	30
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.leb_implb	30
 coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.eqb_subst	30
