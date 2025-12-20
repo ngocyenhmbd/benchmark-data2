@@ -1,1 +1,1 @@
-coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_true_false	180
+coq-tactician-stdlib.8.11.dev	Coq.Bool.Bool.diff_true_false	180	15.930578	13	2	12	synth with cache (only 1: refine ((fun v0 : @true = @false => let v1 : @False := eq_ind (@true) (fun v2 : @bool => match v2 as v3 in bool return Prop with | true => @True | false => @False end) (@I) (@false) v0 in False_ind (@False) v1) : @true <> @false)).
