@@ -1,13 +1,3 @@
 File "./theories/MSets/MSetRBT.v", line 1046, characters 1-8:
 Warning:
 Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
-File "./theories/MSets/MSetRBT.v", line 1118, characters 7-51:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )
-File "./theories/MSets/MSetRBT.v", line 1121, characters 7-51:
-Warning:
-Benchmarking error: Connection to proving server refused at addresses
-::1:2224 (canonical: localhost)
-127.0.0.1:2224 (canonical: )

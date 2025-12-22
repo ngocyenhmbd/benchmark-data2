@@ -1,16 +1,1 @@
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.not_eq_S	181	1.652300	1	2	0	synth with cache (only 1: refine ((fun (v0 v1 : @nat) (v2 : v0 <> v1) (v3 : S v0 = S v1) => v2 (eq_add_S v0 v1 v3)) : forall (v0 v1 : @nat) (v2 : v0 <> v1), S v0 <> S v1)).
-coq-tactician-stdlib.8.11.dev	Coq.Init.Peano.le_S_n	181	0.497152	1	2	0	synth with cache (only 1: refine (fun v0 v1 : @nat => le_pred (S v0) (S v1))).
-coq-tactician-stdlib.8.11.dev	Coq.Sets.Permut.Axiomatisation.cong_congr	181	2.087098	1	2	0	synth with cache (only 1: refine (fun (v0 v1 v2 v3 : @U) (v4 : cong v0 v1) (v5 : cong v2 v3) => cong_trans (op v0 v2) (op v1 v2) (op v1 v3) (cong_left v0 v1 v2 v4) (cong_right v2 v3 v1 v5))).
-coq-tactician-stdlib.8.11.dev	Coq.Sets.Relations_2_facts.Rstar_contains_R	181	2.052266	1	2	0	synth with cache (only 1: refine (fun (v0 : Type) (v1 : Relation v0) => (fun (v2 v3 : v0) (v4 : v1 v2 v3) => Rstar_n v0 v1 v2 v3 v3 v4 (Rstar_0 v0 v1 v3)) : contains v0 (Rstar v0 v1) v1)).
-coq-tactician-stdlib.8.11.dev	Coq.ssr.ssrbool.is_true_true	181	2.096588	1	2	0	synth with cache (only 1: refine (erefl (@true) : @true)).
-coq-tactician-stdlib.8.11.dev	Coq.ssr.ssrbool.negbK	181	2.161237	1	2	0	synth with cache (only 1: refine (fun v0 : @bool => (fun (v1 : (fun v2 : @bool => ~~ ~~ v2 = v2) (@true)) (v2 : (fun v3 : @bool => ~~ ~~ v3 = v3) (@false)) => match v0 as v3 in bool return ((fun v4 : @bool => ~~ ~~ v4 = v4) v3) with | true => v1 | false => v2 end) (erefl (@true)) (erefl (@false)))).
-coq-tactician-stdlib.8.11.dev	Coq.ssr.ssrbool.addTb	181	2.361384	2	3	0.0	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun v0 : @bool => erefl (~~ v0))).
-coq-tactician-stdlib.8.11.dev	Coq.Classes.CMorphisms.GenericInstances.trans_contra_inv_impl_type_morphism_obligation_1	181	2.046295	2	3
-coq-tactician-stdlib.8.11.dev	Coq.Classes.Morphisms.Proper.proper_proper_proxy	181	1.999092	2	3
-coq-tactician-stdlib.8.11.dev	Coq.Classes.Morphisms.GenericInstances.trans_sym_contra_impl_morphism_obligation_1	181	2.064867	2	3
-coq-tactician-stdlib.8.11.dev	Coq.Program.Equality.UIP_refl_refl	181	2.016054	2	3
-coq-tactician-stdlib.8.11.dev	Coq.Numbers.Natural.Abstract.NOrder.NOrderProp.lt_pred_lt	181	50.154596	1	2	0	synth with cache (only 1: refine (fun (v0 v1 : @t) (v2 : v0 < P v1) => lt_le_trans v0 (P v1) v1 v2 (le_pred_l v1))).
-coq-tactician-stdlib.8.11.dev	Coq.Numbers.Natural.Abstract.NOrder.NOrderProp.le_pred_le	181	48.988011	2	2
 coq-tactician-stdlib.8.11.dev	Coq.MSets.MSetRBT.MakeRaw.treeify_ok	181
-coq-tactician-stdlib.8.11.dev	Coq.MSets.MSetRBT.MakeRaw.partition_ok1	181
-coq-tactician-stdlib.8.11.dev	Coq.MSets.MSetRBT.MakeRaw.partition_ok2	181
