@@ -1,1 +1,1 @@
-coq-tactician-stdlib.8.11.dev	Coq.MSets.MSetRBT.MakeRaw.treeify_ok	181
+coq-tactician-stdlib.8.11.dev	Coq.MSets.MSetRBT.MakeRaw.treeify_ok	181	4.359538	2	3	0.0	synth with cache (only 1: repeat match goal with | H:_ |- _ => revert H end; only 1: refine (fun (v0 : list (@X.t)) (v1 : Sorted (@X.lt) v0) => elements_sort_ok (treeify v0) (eq_ind_r (fun v2 : list (@X.t) => Sorted (@X.lt) v2) v1 (treeify_elements v0)))).
