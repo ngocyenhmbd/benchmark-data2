@@ -1,27 +1,39 @@
-File "./theories/Numbers/Natural/Abstract/NOrder.v", line 194, characters 0-75:
-Warning:
-Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
-File "./theories/Numbers/Natural/Abstract/NOrder.v", line 199, characters 0-72:
+File "./theories/Init/Peano.v", line 59, characters 2-12:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
 127.0.0.1:2224 (canonical: )
-File "./theories/Numbers/DecimalString.v", line 212, characters 1-13:
+File "./theories/Init/Peano.v", line 197, characters 0-11:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
 127.0.0.1:2224 (canonical: )
-File "./theories/Numbers/DecimalString.v", line 249, characters 1-13:
+File "./theories/Bool/Bool.v", line 264, characters 1-12:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
 127.0.0.1:2224 (canonical: )
-File "./plugins/setoid_ring/Field_theory.v", line 67, characters 7-29:
+File "./theories/Bool/Bool.v", line 507, characters 2-14:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
 127.0.0.1:2224 (canonical: )
-File "./plugins/setoid_ring/Field_theory.v", line 443, characters 1-66:
+File "./theories/Bool/Bool.v", line 631, characters 2-17:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Bool/Bool.v", line 664, characters 2-13:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Bool/Bool.v", line 726, characters 2-20:
+Warning:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/Sets/Permut.v", line 35, characters 4-43:
 Warning:
 Benchmarking error: Connection to proving server refused at addresses
 ::1:2224 (canonical: localhost)
