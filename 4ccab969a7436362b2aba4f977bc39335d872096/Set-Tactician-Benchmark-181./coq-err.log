@@ -1,182 +1,23 @@
-File "./theories/PArith/BinPos.v", line 1631, characters 0-38:
+File "./theories/Init/Tactics.v", line 189, characters 0-45:
+Warning:
+now idtac((TacAlias Coq.Init.Tactics.now_#_62200C10 ((TacThen (TacArg (CAst (Reference (CAst t)))) (TacArg (CAst (TacCall Coq.Init.Tactics.easy (CAst Located)))))) (CAst (Tacexp (TacId)))))
+File "./theories/Logic/Eqdep_dec.v", line 98, characters 4-11:
+Warning:
+Benchmarking error: Cap'n Proto protocol error while communicating with proving server. No response was received.
+File "./plugins/btauto/Algebra.v", line 475, characters 4-59:
 Warning:
 Tactician found a bug in it's tactical decomposition. Please report.
-intros Hf Hg [s _ ->| s r _ -> Hr]
-intros Hf;
- (intros Hg;
-   (intros _tmp_tactician0;
-     (destruct _tmp_tactician0
-       as
-        [s
-         _tmp_tactician2
-         _tmp_tactician4|
-         s
-         r
-         _tmp_tactician2
-         _tmp_tactician4
-         Hr];
-       [ ..
-       | intropattern subst -> _tmp_tactician4; idtac;
-          try clear _tmp_tactician2
-       | intropattern subst -> _tmp_tactician4; idtac;
-          try clear _tmp_tactician2 ])))
+enough (Pos.max (Pos.succ i) i0 = i0) as <-; intuition
+enough (_tmp_tactician0 : Pos.max (Pos.succ i) i0 = i0);
+ [ intropattern subst <- _tmp_tactician0; idtac | .. ]; intuition
 
-Abnormal exit code for coqc on host 902190b4a50c: 139
- Invocation:
-PYTHON_BASIC_REPL=1; export PYTHON_BASIC_REPL;
-LESSOPEN=| /usr/bin/lesspipe %s; export LESSOPEN;
-LIBRARY_PATH=/usr/local/cuda/lib64/stubs; export LIBRARY_PATH;
-NV_LIBCUBLAS_VERSION=12.6.4.1-1; export NV_LIBCUBLAS_VERSION;
-CONDA_PROMPT_MODIFIER=(tactician-ext) ; export CONDA_PROMPT_MODIFIER;
-TMUX=/tmp/tmux-1000/default,25724,2; export TMUX;
-OPAM_PACKAGE_NAME=coq-tactician-stdlib; export OPAM_PACKAGE_NAME;
-NV_NVPROF_DEV_PACKAGE=cuda-nvprof-12-6=12.6.80-1; export NV_NVPROF_DEV_PACKAGE;
-MAIL=/var/mail/brai; export MAIL;
-NV_CUDA_NSIGHT_COMPUTE_VERSION=12.6.3-1; export NV_CUDA_NSIGHT_COMPUTE_VERSION;
-USER=brai; export USER;
-OPAMSWITCH=bench; export OPAMSWITCH;
-HOSTNAME=902190b4a50c; export HOSTNAME;
-GIT_ASKPASS=/home/brai/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass.sh; export GIT_ASKPASS;
-SHLVL=3; export SHLVL;
-BROWSER=/home/brai/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/helpers/browser.sh; export BROWSER;
-NV_LIBNCCL_PACKAGE_VERSION=2.23.4-1; export NV_LIBNCCL_PACKAGE_VERSION;
-OLDPWD=/home/brai; export OLDPWD;
-CONDA_SHLVL=1; export CONDA_SHLVL;
-HOME=/home/brai; export HOME;
-CAML_LD_LIBRARY_PATH=/home/brai/tmp/opam-root/bench/lib/stublibs:/home/brai/tmp/opam-root/bench/lib/ocaml/stublibs:/home/brai/tmp/opam-root/bench/lib/ocaml; export CAML_LD_LIBRARY_PATH;
-NV_CUDNN_PACKAGE_NAME=libcudnn9-cuda-12; export NV_CUDNN_PACKAGE_NAME;
-VSCODE_IPC_HOOK_CLI=/tmp/vscode-ipc-e2146266-6c38-45e1-8e67-fd07b0c25ee4.sock; export VSCODE_IPC_HOOK_CLI;
-NV_LIBCUBLAS_DEV_VERSION=12.6.4.1-1; export NV_LIBCUBLAS_DEV_VERSION;
-TERM_PROGRAM_VERSION=3.4; export TERM_PROGRAM_VERSION;
-OCAML_TOPLEVEL_PATH=/home/brai/tmp/opam-root/bench/lib/toplevel; export OCAML_TOPLEVEL_PATH;
-VSCODE_GIT_ASKPASS_MAIN=/home/brai/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/extensions/git/dist/askpass-main.js; export VSCODE_GIT_ASKPASS_MAIN;
-SSL_CERT_FILE=/usr/lib/ssl/cert.pem; export SSL_CERT_FILE;
-VSCODE_GIT_ASKPASS_NODE=/home/brai/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/node; export VSCODE_GIT_ASKPASS_NODE;
-PYDEVD_DISABLE_FILE_VALIDATION=1; export PYDEVD_DISABLE_FILE_VALIDATION;
-NV_LIBNCCL_DEV_PACKAGE_VERSION=2.23.4-1; export NV_LIBNCCL_DEV_PACKAGE_VERSION;
-MAKEFLAGS= -j7 --jobserver-auth=3,4; export MAKEFLAGS;
-VSCODE_PYTHON_AUTOACTIVATE_GUARD=1; export VSCODE_PYTHON_AUTOACTIVATE_GUARD;
-BUNDLED_DEBUGPY_PATH=/home/brai/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy; export BUNDLED_DEBUGPY_PATH;
-REMOTE_CONTAINERS=true; export REMOTE_CONTAINERS;
-COLORTERM=truecolor; export COLORTERM;
-NV_LIBNPP_PACKAGE=libnpp-12-6=12.3.1.54-1; export NV_LIBNPP_PACKAGE;
-CUDA_VERSION=12.6.3; export CUDA_VERSION;
-NV_CUDNN_PACKAGE=libcudnn9-cuda-12=9.5.1.17-1; export NV_CUDNN_PACKAGE;
-DEBUGINFOD_URLS=https://debuginfod.ubuntu.com ; export DEBUGINFOD_URLS;
-NV_NVPROF_VERSION=12.6.80-1; export NV_NVPROF_VERSION;
-LOGNAME=brai; export LOGNAME;
-NV_LIBCUBLAS_PACKAGE_NAME=libcublas-12-6; export NV_LIBCUBLAS_PACKAGE_NAME;
-NVIDIA_REQUIRE_CUDA=cuda>=12.6 brand=unknown,driver>=470,driver<471 brand=grid,driver>=470,driver<471 brand=tesla,driver>=470,driver<471 brand=nvidia,driver>=470,driver<471 brand=quadro,driver>=470,driver<471 brand=quadrortx,driver>=470,driver<471 brand=nvidiartx,driver>=470,driver<471 brand=vapps,driver>=470,driver<471 brand=vpc,driver>=470,driver<471 brand=vcs,driver>=470,driver<471 brand=vws,driver>=470,driver<471 brand=cloudgaming,driver>=470,driver<471 brand=unknown,driver>=535,driver<536 brand=grid,driver>=535,driver<536 brand=tesla,driver>=535,driver<536 brand=nvidia,driver>=535,driver<536 brand=quadro,driver>=535,driver<536 brand=quadrortx,driver>=535,driver<536 brand=nvidiartx,driver>=535,driver<536 brand=vapps,driver>=535,driver<536 brand=vpc,driver>=535,driver<536 brand=vcs,driver>=535,driver<536 brand=vws,driver>=535,driver<536 brand=cloudgaming,driver>=535,driver<536 brand=unknown,driver>=550,driver<551 brand=grid,driver>=550,driver<551 brand=tesla,driver>=550,driver<551 brand=nvidia,driver>=550,driver<551 brand=quadro,driver>=550,driver<551 brand=quadrortx,driver>=550,driver<551 brand=nvidiartx,driver>=550,driver<551 brand=vapps,driver>=550,driver<551 brand=vpc,driver>=550,driver<551 brand=vcs,driver>=550,driver<551 brand=vws,driver>=550,driver<551 brand=cloudgaming,driver>=550,driver<551; export NVIDIA_REQUIRE_CUDA;
-_=/usr/bin/sh; export _;
-DEVPOD=true; export DEVPOD;
-NV_LIBNCCL_PACKAGE_NAME=libnccl2; export NV_LIBNCCL_PACKAGE_NAME;
-NV_CUDA_LIB_VERSION=12.6.3-1; export NV_CUDA_LIB_VERSION;
-OPAMROOT=/home/brai/tmp/opam-root; export OPAMROOT;
-NV_LIBCUSPARSE_VERSION=12.5.4.2-1; export NV_LIBCUSPARSE_VERSION;
-NVIDIA_DRIVER_CAPABILITIES=compute,utility; export NVIDIA_DRIVER_CAPABILITIES;
-NV_LIBNPP_DEV_PACKAGE=libnpp-dev-12-6=12.3.1.54-1; export NV_LIBNPP_DEV_PACKAGE;
-NV_NVML_DEV_VERSION=12.6.77-1; export NV_NVML_DEV_VERSION;
-TERM=tmux-256color; export TERM;
-NV_CUDA_CUDART_VERSION=12.6.77-1; export NV_CUDA_CUDART_VERSION;
-NV_CUDNN_PACKAGE_DEV=libcudnn9-dev-cuda-12=9.5.1.17-1; export NV_CUDNN_PACKAGE_DEV;
-PATH=/home/brai/tmp/opam-root/bench/bin:/home/brai/.opam/tactician/bin:/home/brai/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/brai/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/brai/.vscode-server/cli/servers/Stable-994fd12f8d3a5aa16f17d42c041e5809167e845a/server/bin/remote-cli:/home/brai/.opam/tactician/bin:/home/brai/.conda/envs/tactician-ext/bin:/opt/conda/condabin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/brai/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts; export PATH;
-NV_LIBCUBLAS_DEV_PACKAGE_NAME=libcublas-dev-12-6; export NV_LIBCUBLAS_DEV_PACKAGE_NAME;
-NV_LIBCUBLAS_PACKAGE=libcublas-12-6=12.6.4.1-1; export NV_LIBCUBLAS_PACKAGE;
-NVARCH=x86_64; export NVARCH;
-DEVPOD_WORKSPACE_ID=yenworkspace; export DEVPOD_WORKSPACE_ID;
-MAKELEVEL=1; export MAKELEVEL;
-SSL_CERT_DIR=/usr/lib/ssl/certs; export SSL_CERT_DIR;
-NV_LIBNCCL_PACKAGE=libnccl2=2.23.4-1+cuda12.6; export NV_LIBNCCL_PACKAGE;
-NV_LIBCUSPARSE_DEV_VERSION=12.5.4.2-1; export NV_LIBCUSPARSE_DEV_VERSION;
-NV_LIBNCCL_DEV_PACKAGE_NAME=libnccl-dev; export NV_LIBNCCL_DEV_PACKAGE_NAME;
-PYTHONSTARTUP=/home/brai/.vscode-server/data/User/workspaceStorage/5a480103c4ee7f2b3973ac33cb393071/ms-python.python/pythonrc.py; export PYTHONSTARTUP;
-LANG=en_US.UTF-8; export LANG;
-VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=/home/brai/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-26e52b34f58950a0.txt; export VSCODE_DEBUGPY_ADAPTER_ENDPOINTS;
-NVIDIA_PRODUCT_NAME=CUDA; export NVIDIA_PRODUCT_NAME;
-NV_CUDA_CUDART_DEV_VERSION=12.6.77-1; export NV_CUDA_CUDART_DEV_VERSION;
-VSCODE_GIT_IPC_HANDLE=/tmp/vscode-git-f6051def67.sock; export VSCODE_GIT_IPC_HANDLE;
-TERM_PROGRAM=tmux; export TERM_PROGRAM;
-LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:; export LS_COLORS;
-CDPATH=; export CDPATH;
-SSH_AUTH_SOCK=/tmp/vscode-ssh-auth-sock-426907063; export SSH_AUTH_SOCK;
-CONDA_PYTHON_EXE=/opt/conda/bin/python; export CONDA_PYTHON_EXE;
-OPAMNOENVNOTICE=true; export OPAMNOENVNOTICE;
-DEBIAN_FRONTEND=noninteractive; export DEBIAN_FRONTEND;
-OPAMCLI=2.0; export OPAMCLI;
-NV_LIBCUBLAS_DEV_PACKAGE=libcublas-dev-12-6=12.6.4.1-1; export NV_LIBCUBLAS_DEV_PACKAGE;
-SHELL=/bin/bash; export SHELL;
-DEVPOD_WORKSPACE_UID=default-ye-f1324; export DEVPOD_WORKSPACE_UID;
-NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE=cuda-nsight-compute-12-6=12.6.3-1; export NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE;
-OPAM_PACKAGE_VERSION=8.11.dev; export OPAM_PACKAGE_VERSION;
-NV_LIBNCCL_DEV_PACKAGE=libnccl-dev=2.23.4-1+cuda12.6; export NV_LIBNCCL_DEV_PACKAGE;
-LESSCLOSE=/usr/bin/lesspipe %s %s; export LESSCLOSE;
-CONDA_DEFAULT_ENV=tactician-ext; export CONDA_DEFAULT_ENV;
-NV_LIBNPP_VERSION=12.3.1.54-1; export NV_LIBNPP_VERSION;
-OCAMLTOP_INCLUDE_PATH=/home/brai/tmp/opam-root/bench/lib/toplevel; export OCAMLTOP_INCLUDE_PATH;
-OPAM_SWITCH_PREFIX=/home/brai/tmp/opam-root/bench; export OPAM_SWITCH_PREFIX;
-NV_NVTX_VERSION=12.6.77-1; export NV_NVTX_VERSION;
-VSCODE_GIT_ASKPASS_EXTRA_ARGS=; export VSCODE_GIT_ASKPASS_EXTRA_ARGS;
-NV_CUDNN_VERSION=9.5.1.17-1; export NV_CUDNN_VERSION;
-PWD=/home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev; export PWD;
-OPAMJOBS=1; export OPAMJOBS;
-CONDA_EXE=/opt/conda/bin/conda; export CONDA_EXE;
-NCCL_VERSION=2.23.4-1; export NCCL_VERSION;
-MFLAGS=-j7 --jobserver-auth=3,4; export MFLAGS;
-CONDA_PREFIX=/home/brai/.conda/envs/tactician-ext; export CONDA_PREFIX;
-NVIDIA_VISIBLE_DEVICES=all; export NVIDIA_VISIBLE_DEVICES;
-TMUX_PANE=%2; export TMUX_PANE;
-MANPATH=:/home/brai/.opam/tactician/man:/home/brai/.opam/tactician/man:/home/brai/tmp/opam-root/bench/man; export MANPATH;
-NV_LIBNPP_DEV_VERSION=12.3.1.54-1; export NV_LIBNPP_DEV_VERSION;
-(cd /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev && bwrap --dev-bind / / --bind /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/MSets/MSetAVL.glob.bench-294174 /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/MSets/MSetAVL.glob --bind /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/MSets/MSetAVL.vo.bench-294174 /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/MSets/MSetAVL.vo --bind /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/MSets/MSetAVL.vok.bench-294174 /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/MSets/MSetAVL.vok --bind /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/MSets/MSetAVL.vos.bench-294174 /home/brai/tmp/opam-root/bench/.opam-switch/build/coq-tactician-stdlib.8.11.dev/theories/MSets/MSetAVL.vos /home/brai/tmp/opam-root/bench/bin/coqc -q -I /home/brai/tmp/opam-root/bench/lib/coq/user-contrib/Tactician -R /home/brai/tmp/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record -I /home/brai/tmp/opam-root/bench/lib/ocaml -I /home/brai/tmp/opam-root/bench/lib/stdlib-shims -I /home/brai/tmp/opam-root/bench/lib/integers -I /home/brai/tmp/opam-root/bench/lib/ctypes -I /home/brai/tmp/opam-root/bench/lib/ctypes/stubs -I /home/brai/tmp/opam-root/bench/lib/xxhash -I /home/brai/tmp/opam-root/bench/lib/ocamlgraph -I /home/brai/tmp/opam-root/bench/lib/lwt -I /home/brai/tmp/opam-root/bench/lib/ocplib-endian -I /home/brai/tmp/opam-root/bench/lib/ocplib-endian/bigstring -I /home/brai/tmp/opam-root/bench/lib/lwt/unix -I /home/brai/tmp/opam-root/bench/lib/astring -I /home/brai/tmp/opam-root/bench/lib/res -I /home/brai/tmp/opam-root/bench/lib/result -I /home/brai/tmp/opam-root/bench/lib/stdint -I /home/brai/tmp/opam-root/bench/lib/capnp -I /home/brai/tmp/opam-root/bench/lib/asetmap -I /home/brai/tmp/opam-root/bench/lib/fmt -I /home/brai/tmp/opam-root/bench/lib/logs -I /home/brai/tmp/opam-root/bench/lib/capnp-rpc -I /home/brai/tmp/opam-root/bench/lib/bigstringaf -I /home/brai/tmp/opam-root/bench/lib/angstrom -I /home/brai/tmp/opam-root/bench/lib/stringext -I /home/brai/tmp/opam-root/bench/lib/uri -I /home/brai/tmp/opam-root/bench/lib/capnp-rpc-lwt -I /home/brai/tmp/opam-root/bench/lib/base64 -I /home/brai/tmp/opam-root/bench/lib/cstruct -I /home/brai/tmp/opam-root/bench/lib/eqaf -I /home/brai/tmp/opam-root/bench/lib/eqaf/bigstring -I /home/brai/tmp/opam-root/bench/lib/eqaf/cstruct -I /home/brai/tmp/opam-root/bench/lib/mirage-crypto -I /home/brai/tmp/opam-root/bench/lib/mirage-crypto-rng -I /home/brai/tmp/opam-root/bench/lib/mirage-flow -I /home/brai/tmp/opam-root/bench/lib/re -I /home/brai/tmp/opam-root/bench/lib/prometheus -I /home/brai/tmp/opam-root/bench/lib/ptime -I /home/brai/tmp/opam-root/bench/lib/mirage-clock -I /home/brai/tmp/opam-root/bench/lib/sexplib0 -I /home/brai/tmp/opam-root/bench/lib/zarith -I /home/brai/tmp/opam-root/bench/lib/mirage-crypto-pk -I /home/brai/tmp/opam-root/bench/lib/optint -I /home/brai/tmp/opam-root/bench/lib/mirage-kv -I /home/brai/tmp/opam-root/bench/lib/domain-name -I /home/brai/tmp/opam-root/bench/lib/hkdf -I /home/brai/tmp/opam-root/bench/lib/macaddr -I /home/brai/tmp/opam-root/bench/lib/ipaddr -I /home/brai/tmp/opam-root/bench/lib/mirage-crypto-ec -I /home/brai/tmp/opam-root/bench/lib/asn1-combinators -I /home/brai/tmp/opam-root/bench/lib/gmap -I /home/brai/tmp/opam-root/bench/lib/pbkdf -I /home/brai/tmp/opam-root/bench/lib/x509 -I /home/brai/tmp/opam-root/bench/lib/tls -I /home/brai/tmp/opam-root/bench/lib/tls-mirage -I /home/brai/tmp/opam-root/bench/lib/capnp-rpc-net -I /home/brai/tmp/opam-root/bench/lib/cmdliner -I /home/brai/tmp/opam-root/bench/lib/cstruct-lwt -I /home/brai/tmp/opam-root/bench/lib/extunix -I /home/brai/tmp/opam-root/bench/lib/duration -I /home/brai/tmp/opam-root/bench/lib/mirage-crypto-rng/unix -I /home/brai/tmp/opam-root/bench/lib/mtime -I /home/brai/tmp/opam-root/bench/lib/mtime/clock -I /home/brai/tmp/opam-root/bench/lib/mirage-crypto-rng-lwt -I /home/brai/tmp/opam-root/bench/lib/capnp-rpc-unix -I /home/brai/tmp/opam-root/bench/lib/base/base_internalhash_types -I /home/brai/tmp/opam-root/bench/lib/base/caml -I /home/brai/tmp/opam-root/bench/lib/base/shadow_stdlib -I /home/brai/tmp/opam-root/bench/lib/base -I /home/brai/tmp/opam-root/bench/lib/stdio -I /home/brai/tmp/opam-root/bench/lib/capnp/unix -I /home/brai/tmp/opam-root/bench/lib/logs/fmt -I /home/brai/tmp/opam-root/bench/lib/coq/user-contrib/TacticianApi -R /home/brai/tmp/opam-root/bench/lib/coq/user-contrib/TacticianApi TacticianApi -l NNLearner -l /home/brai/tmp/opam-root/bench/share/coq-tactician/plugins/zzz-benchmark/Injections.v -q -coqlib . -I /home/brai/tmp/opam-root/bench/lib/coq/user-contrib/Tactician -R /home/brai/tmp/opam-root/bench/lib/coq/user-contrib/Tactician Tactician -rifrom Tactician Ltac1.Record theories/MSets/MSetAVL.v -l /home/brai/tmp/BenchParams.v)File "./theories/ZArith/BinInt.v", line 622, characters 18-68:
+File "./theories/FSets/FSetProperties.v", line 590, characters 2-56:
 Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-destruct n as [| [| | ]| [| | ]]; simpl; try easy
-try intros until n;
- (<recording::with_runtime_info@0> <genarg:wit_runtime_info>;
-   [ ..
-   | idtac
-   | destruct _tmp_tactician0 as [| | ]; [ .. | idtac | idtac | idtac ]
-   | destruct _tmp_tactician0 as [| | ]; [ .. | idtac | idtac | idtac ] ]);
- simpl; try easy
-
-File "./theories/Sets/Finite_sets_facts.v", line 45, characters 4-33:
-Warning: Tactician's tactical decomposition crashed. Please report.
-File "./theories/Sorting/Sorted.v", line 79, characters 4-99:
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
+File "./theories/FSets/FSetProperties.v", line 863, characters 2-21:
 Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-split; [ induction 1 as [| a l [| ]] | induction 1 ]; auto
- using Sorted, LocallySorted, HdRel
-split;
- [ <recording::with_runtime_info@0> <genarg:wit_runtime_info>;
-    [ .. | idtac | destruct _tmp_tactician0 as [| ]; [ .. | idtac | idtac ] ]
- | <recording::with_runtime_info@0>
- <genarg:wit_runtime_info> ]; auto using Sorted, LocallySorted, HdRel
-
-File "./theories/Lists/List.v", line 264, characters 6-22:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros a b [=]
-intros a;
- (intros b;
-   (intros _tmp_tactician0; (first
-     [ discriminate _tmp_tactician0; idtac
-     | injection _tmp_tactician0 as; idtac
-     | intro_equality_clear _tmp_tactician0; idtac
-     | intro_equality_hnf _tmp_tactician0; idtac ])))
-
-File "./theories/Arith/Between.v", line 160, characters 6-52:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-destruct (exists_in_int k (S l)) as (l', [], ?)
-<recording::with_runtime_info@0> <genarg:wit_runtime_info>;
- [ .. | destruct _tmp_tactician0 as []; idtac ]
-
-File "./theories/Arith/PeanoNat.v", line 287, characters 1-35:
-Warning:
-Tactician found a bug in it's tactical decomposition. Please report.
-intros ([| ], H); try discriminate
-intros _tmp_tactician0;
- (destruct _tmp_tactician0 as (_tmp_tactician2, H);
-   [ .. | destruct _tmp_tactician2 as [| ]; [ .. | idtac | idtac ] ]);
- try discriminate
-
+Benchmarking error: Connection to proving server refused at addresses
+::1:2224 (canonical: localhost)
+127.0.0.1:2224 (canonical: )
